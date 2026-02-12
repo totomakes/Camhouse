@@ -9,7 +9,7 @@ interface ProductDetailProps {
 }
 
 const ProductDetail: React.FC<ProductDetailProps> = ({ product, onClose, onAddToCart }) => {
-    const [activeImage, setActiveImage] = useState(product.gallery?.[0] || product.imageUrl);
+    const [activeImage, setActiveImage] = useState(product.imageUrl || product.gallery?.[0]);
 
     React.useEffect(() => {
         const handleEsc = (e: KeyboardEvent) => {
@@ -27,10 +27,9 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ product, onClose, onAddTo
             />
 
             <div className="relative bg-white w-full max-w-7xl h-full max-h-[95vh] overflow-hidden flex flex-col lg:flex-row shadow-[0_64px_128px_-32px_rgba(0,0,0,0.5)] rounded-3xl animate-fade-in-up">
-                {/* Close Button */}
                 <button
                     onClick={onClose}
-                    className="absolute top-6 right-6 z-50 w-12 h-12 rounded-full bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center text-white hover:bg-[#FF3E1F] transition-all group shadow-2xl"
+                    className="absolute top-6 right-6 z-50 w-12 h-12 rounded-full bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center text-white hover:bg-primary transition-all group shadow-2xl"
                 >
                     <svg className="w-5 h-5 group-hover:rotate-90 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M6 18L18 6M6 6l12 12" /></svg>
                 </button>
@@ -51,9 +50,9 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ product, onClose, onAddTo
                                     href={product.videoUrl}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="flex items-center gap-3 bg-white/90 backdrop-blur-md border border-white px-5 py-3 rounded-full text-black text-[9px] font-bold tracking-widest hover:bg-[#FF3E1F] hover:text-white transition-all shadow-lg"
+                                    className="flex items-center gap-3 bg-white/90 backdrop-blur-md border border-white px-5 py-3 rounded-full text-black text-[9px] font-bold tracking-widest hover:bg-primary hover:text-white transition-all shadow-lg"
                                 >
-                                    <div className="w-6 h-6 rounded-full bg-[#FF3E1F] flex items-center justify-center">
+                                    <div className="w-6 h-6 rounded-full bg-primary flex items-center justify-center">
                                         <svg className="w-3 h-3 fill-white" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
                                     </div>
                                     WATCH VIDEO
@@ -69,7 +68,7 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ product, onClose, onAddTo
                                 <button
                                     key={idx}
                                     onClick={() => setActiveImage(img)}
-                                    className={`w-20 h-20 rounded-xl overflow-hidden border-2 transition-all flex-shrink-0 ${activeImage === img ? 'border-[#FF3E1F] scale-105' : 'border-transparent opacity-60 hover:opacity-100'
+                                    className={`w-20 h-20 rounded-xl overflow-hidden border-2 transition-all flex-shrink-0 ${activeImage === img ? 'border-primary scale-105' : 'border-transparent opacity-60 hover:opacity-100'
                                         }`}
                                 >
                                     <img src={img} className="w-full h-full object-cover" alt={`${product.name} view ${idx + 1}`} />
@@ -83,14 +82,14 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ product, onClose, onAddTo
                 <div className="w-full lg:w-1/2 flex flex-col p-8 lg:p-14 overflow-y-auto bg-white custom-scrollbar">
                     <div className="mb-10">
                         <div className="flex items-center gap-4 mb-6">
-                            <span className="text-[#FF3E1F] text-[10px] uppercase font-bold tracking-[0.2em] px-3 py-1 bg-[#FF3E1F]/10 rounded-full">
+                            <span className="text-primary text-[10px] uppercase font-bold tracking-[0.2em] px-3 py-1 bg-primary/10 rounded-full">
                                 {product.brand}
                             </span>
                             <span className="text-[10px] text-black/30 font-bold uppercase tracking-widest">
                                 {product.category} / {product.subcategory}
                             </span>
                         </div>
-                        <h1 className="text-4xl lg:text-5xl font-heading mb-6 text-[#121212] font-black leading-tight uppercase tracking-tighter">
+                        <h1 className="text-4xl lg:text-5xl font-heading mb-6 text-text-primary font-black leading-tight uppercase tracking-tighter">
                             {product.name}
                         </h1>
                         <div className="prose prose-sm max-w-none text-black/60 leading-relaxed font-body">
@@ -101,18 +100,18 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ product, onClose, onAddTo
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-10 py-10 border-y border-black/5">
                         <div>
-                            <h4 className="text-[10px] font-bold uppercase tracking-[0.3em] text-[#FF3E1F] mb-6">Especificaciones</h4>
+                            <h4 className="text-[10px] font-bold uppercase tracking-[0.3em] text-primary mb-6">Especificaciones</h4>
                             <ul className="space-y-3">
                                 {Object.entries(product.specs).map(([key, value]) => {
                                     const isNumericKey = /^Feature \d+$/i.test(key) || /^\d+$/i.test(key);
                                     return (
                                         <li key={key} className="flex gap-3 text-sm border-b border-black/[0.03] pb-3 last:border-0">
-                                            <span className="text-[#FF3E1F] font-bold">•</span>
+                                            <span className="text-primary font-bold">•</span>
                                             <div className="flex flex-col">
                                                 {!isNumericKey && (
                                                     <span className="text-black/30 uppercase font-bold tracking-widest text-[8px] mb-1">{key}</span>
                                                 )}
-                                                <span className="text-[#121212] font-medium leading-tight">{value}</span>
+                                                <span className="text-text-primary font-medium leading-tight">{value}</span>
                                             </div>
                                         </li>
                                     );
@@ -122,14 +121,14 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ product, onClose, onAddTo
 
                         <div>
                             <h4 className="text-[10px] font-black uppercase tracking-[0.3em] text-black/40 mb-6 italic">Disponibilidad</h4>
-                            <div className="bg-[#FF3E1F] p-7 rounded-none text-white shadow-2xl relative overflow-hidden group border border-white/5">
+                            <div className="bg-primary p-7 rounded-none text-white shadow-2xl relative overflow-hidden group border border-white/5">
                                 <div className="relative z-10">
                                     <div className="flex items-end justify-between mb-3">
                                         <div className="flex flex-col">
                                             <span className="text-xs text-white/60 uppercase font-black tracking-widest mb-1">STOCK ACTUAL</span>
                                             <span className="text-4xl font-black tracking-tighter text-white">{product.available} <span className="text-xs text-white/40">/ {product.stock}</span></span>
                                         </div>
-                                        <span className={`text-[9px] font-black uppercase tracking-[0.2em] px-3 py-1.5 rounded-none border-2 shadow-2xl bg-white text-[#FF3E1F] border-transparent`}>
+                                        <span className={`text-[9px] font-black uppercase tracking-[0.2em] px-3 py-1.5 rounded-none border-2 shadow-2xl bg-white text-primary border-transparent`}>
                                             {product.available > 0 ? 'EN INVENTARIO' : 'SIN STOCK'}
                                         </span>
                                     </div>
@@ -168,7 +167,7 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ product, onClose, onAddTo
                         <div className="w-full sm:w-auto">
                             <p className="text-[9px] font-bold text-black/30 uppercase tracking-[0.3em] mb-1">Precio por Día (Rental)</p>
                             <div className="flex items-baseline gap-2">
-                                <span className="text-5xl font-black text-[#121212] tracking-tighter italic leading-none">${product.pricePerDay}</span>
+                                <span className="text-5xl font-black text-text-primary tracking-tighter italic leading-none">${product.pricePerDay}</span>
                                 <span className="text-xs font-black text-black/20 uppercase tracking-widest">USD + IVA</span>
                             </div>
                         </div>
@@ -185,7 +184,7 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ product, onClose, onAddTo
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 

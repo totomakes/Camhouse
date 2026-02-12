@@ -7,17 +7,16 @@
     "subcategory": "LED",
     "description": "Este  Litepanels Gemini 2x1 Soft RGB LED Light Panel  es un dispositivo de aluminio de con tres modos de iluminación. El control de temperatura de color CCT tiene seis ajustes preestablecidos de fábrica en incrementos de 2,700 a 10,000 K. También hay seis ajustes preestablecidos para la temperatura de color definida por el usuario. El modo de color HSI le permite ajustar el tono, la saturación y la intensidad, mientras que el modo Gel le permite elegir entre una biblioteca de filtros de uso frecuente. Modo de efectos de iluminación que incluye simulación de TV, ráfaga de tono, paparazzi, estroboscopio, fuego, cuadrados, fuegos artificiales, luces de emergencia, pulso y luces de fiesta.",
     "pricePerDay": 100,
-    "imageUrl": "/assets/products/litepanels-gemini-2x1-soft-rgb-led-light-panel-1.jpg",
+    "imageUrl": "/assets/products/litepanels-gemini-2x1-soft-rgb-led-light-panel-0.jpg",
     "gallery": [
       "/assets/products/litepanels-gemini-2x1-soft-rgb-led-light-panel-0.jpg",
       "/assets/products/litepanels-gemini-2x1-soft-rgb-led-light-panel-1.jpg",
       "/assets/products/litepanels-gemini-2x1-soft-rgb-led-light-panel-2.jpg",
-      "/assets/products/litepanels-gemini-2x1-soft-rgb-led-light-panel-3.png",
+      "/assets/products/litepanels-gemini-2x1-soft-rgb-led-light-panel-3.jpg",
       "/assets/products/litepanels-gemini-2x1-soft-rgb-led-light-panel-4.jpg",
       "/assets/products/litepanels-gemini-2x1-soft-rgb-led-light-panel-5.jpg",
       "/assets/products/litepanels-gemini-2x1-soft-rgb-led-light-panel-6.jpg",
-      "/assets/products/litepanels-gemini-2x1-soft-rgb-led-light-panel-7.jpg",
-      "/assets/products/litepanels-gemini-2x1-soft-rgb-led-light-panel-8.jpg"
+      "/assets/products/litepanels-gemini-2x1-soft-rgb-led-light-panel-7.jpg"
     ],
     "specs": {
       "Salida": "9713 Lux a 3,3' (6000K)",
@@ -50,17 +49,16 @@
     "subcategory": "LED",
     "description": "La Aputure LS 300x Bi-Color LED Monolight (V-Mount) es la primera luz Aputure que va más allá de la iluminación bicolor tradicional al utilizar el rango CCT vari-white expandido de 2700-6500K, brindando tonos de tungsteno más cálidos y blancos más fríos que la luz del día. La luz brillante se puede atenuar desde una luz principal potente hasta una luz de relleno sutil y matizada, sin parpadeos en todo el rango de atenuación. Emite hasta 20 500 lux a 3,3' con su Hyper Reflector de 55° incluido. El controlador autorregulable de voltaje múltiple también funciona con baterías de montaje en V simples o dobles, adecuadas para iluminación en ubicaciones remotas.",
     "pricePerDay": 75,
-    "imageUrl": "/assets/products/aputure-ls-300x-bi-color-led-monolight-v-mount-2.jpg",
+    "imageUrl": "/assets/products/aputure-ls-300x-bi-color-led-monolight-v-mount-0.jpg",
     "gallery": [
       "/assets/products/aputure-ls-300x-bi-color-led-monolight-v-mount-0.jpg",
-      "/assets/products/aputure-ls-300x-bi-color-led-monolight-v-mount-1.png",
+      "/assets/products/aputure-ls-300x-bi-color-led-monolight-v-mount-1.jpg",
       "/assets/products/aputure-ls-300x-bi-color-led-monolight-v-mount-2.jpg",
       "/assets/products/aputure-ls-300x-bi-color-led-monolight-v-mount-3.jpg",
       "/assets/products/aputure-ls-300x-bi-color-led-monolight-v-mount-4.jpg",
       "/assets/products/aputure-ls-300x-bi-color-led-monolight-v-mount-5.jpg",
       "/assets/products/aputure-ls-300x-bi-color-led-monolight-v-mount-6.jpg",
-      "/assets/products/aputure-ls-300x-bi-color-led-monolight-v-mount-7.jpg",
-      "/assets/products/aputure-ls-300x-bi-color-led-monolight-v-mount-8.jpg"
+      "/assets/products/aputure-ls-300x-bi-color-led-monolight-v-mount-7.jpg"
     ],
     "specs": {
       "Feature 1": "Para producción de cine, radiodifusión y vídeo",
@@ -99,17 +97,16 @@
     "subcategory": "Conventional",
     "description": "Fabricado exclusivamente para Aputure LS C120d, LS C120d II, LS C300d, el accesorio Fresnel 2X ofrece una dispersión del haz que varía de 12 a 40 grados. Un subproducto valioso de este diseño mejorado es su capacidad para intensificar la salida de luz. El LS 120d II de Aputure, por ejemplo, es capaz de emitir hasta 14 veces su potencia estándar gracias al diseño de lente dual del Fresnel. El Fresnel 2X viene con un estuche acolchado para guardarlo y transportarlo.",
     "pricePerDay": 6,
-    "imageUrl": "/assets/products/aputure-fresnel-2x-attachment-1.jpg",
+    "imageUrl": "/assets/products/aputure-fresnel-2x-attachment-0.jpg",
     "gallery": [
-      "/assets/products/aputure-fresnel-2x-attachment-0.png",
+      "/assets/products/aputure-fresnel-2x-attachment-0.jpg",
       "/assets/products/aputure-fresnel-2x-attachment-1.jpg",
       "/assets/products/aputure-fresnel-2x-attachment-2.jpg",
       "/assets/products/aputure-fresnel-2x-attachment-3.jpg",
       "/assets/products/aputure-fresnel-2x-attachment-4.jpg",
       "/assets/products/aputure-fresnel-2x-attachment-5.jpg",
       "/assets/products/aputure-fresnel-2x-attachment-6.jpg",
-      "/assets/products/aputure-fresnel-2x-attachment-7.jpg",
-      "/assets/products/aputure-fresnel-2x-attachment-8.jpg"
+      "/assets/products/aputure-fresnel-2x-attachment-7.jpg"
     ],
     "specs": {
       "Feature 1": "Diámetro de lente de 6",
@@ -139,15 +136,14 @@
     "subcategory": "LED",
     "description": "Versatilidad precisa: con un CRI líder en su clase de 97 y TLCI de 98, un rango CCT ampliado de 2700K-7500K y un amplio ajuste G/M de +/-150, PavoTube II 15C es altamente preciso y adaptable. Control amplio: cuenta con controles integrados y una pantalla OLED, puedes controlar con tu teléfono a través de Bluetooth con la aplicación gratuita NANLINK para iOS y Android, tiene un puerto DMX/RDM de metal de bloqueo y 2.4G. Batería: se puede cargar con el adaptador de CA en la tapa final o el puerto USB-C en la parte posterior, obtiene más de 2 horas de vida útil al 100% de brillo y 14 horas al 1%.",
     "pricePerDay": 60,
-    "imageUrl": "/assets/products/nanlite-pavotube-15c-rgb-led-tube-light-2-4-kit-1.jpg",
+    "imageUrl": "/assets/products/nanlite-pavotube-15c-rgb-led-tube-light-2-4-kit-0.jpg",
     "gallery": [
-      "/assets/products/nanlite-pavotube-15c-rgb-led-tube-light-2-4-kit-0.png",
+      "/assets/products/nanlite-pavotube-15c-rgb-led-tube-light-2-4-kit-0.jpg",
       "/assets/products/nanlite-pavotube-15c-rgb-led-tube-light-2-4-kit-1.jpg",
       "/assets/products/nanlite-pavotube-15c-rgb-led-tube-light-2-4-kit-2.jpg",
       "/assets/products/nanlite-pavotube-15c-rgb-led-tube-light-2-4-kit-3.jpg",
       "/assets/products/nanlite-pavotube-15c-rgb-led-tube-light-2-4-kit-4.jpg",
-      "/assets/products/nanlite-pavotube-15c-rgb-led-tube-light-2-4-kit-5.jpg",
-      "/assets/products/nanlite-pavotube-15c-rgb-led-tube-light-2-4-kit-6.jpg"
+      "/assets/products/nanlite-pavotube-15c-rgb-led-tube-light-2-4-kit-5.jpg"
     ],
     "specs": {
       "Salida": "423 Lux a 3,3' (5600K)",
@@ -184,16 +180,15 @@
     "subcategory": "LED",
     "description": "Versatilidad precisa: con un CRI líder en su clase de 97 y TLCI de 98, un rango CCT ampliado de 2700K-7500K y un amplio ajuste G/M de +/-150, Nanlite PavoTube 30C RGB LED Tube Light (4') es altamente preciso y adaptable. Control amplio: cuenta con controles integrados y una pantalla OLED, puedes controlar con tu teléfono a través de Bluetooth con la aplicación gratuita NANLINK para iOS y Android, tiene un puerto DMX/RDM de metal de bloqueo y 2.4G. Batería: se puede cargar con el adaptador de CA en la tapa final o el puerto USB-C en la parte posterior, obtiene más de 2.5 horas de vida al 100% de brillo y 29 horas al 1%.",
     "pricePerDay": 90,
-    "imageUrl": "/assets/products/nanlite-pavotube-30-c-rgb-led-tube-light-4-4-kit-1.jpg",
+    "imageUrl": "/assets/products/nanlite-pavotube-30-c-rgb-led-tube-light-4-4-kit-0.jpg",
     "gallery": [
-      "/assets/products/nanlite-pavotube-30-c-rgb-led-tube-light-4-4-kit-0.png",
+      "/assets/products/nanlite-pavotube-30-c-rgb-led-tube-light-4-4-kit-0.jpg",
       "/assets/products/nanlite-pavotube-30-c-rgb-led-tube-light-4-4-kit-1.jpg",
       "/assets/products/nanlite-pavotube-30-c-rgb-led-tube-light-4-4-kit-2.jpg",
       "/assets/products/nanlite-pavotube-30-c-rgb-led-tube-light-4-4-kit-3.jpg",
       "/assets/products/nanlite-pavotube-30-c-rgb-led-tube-light-4-4-kit-4.jpg",
       "/assets/products/nanlite-pavotube-30-c-rgb-led-tube-light-4-4-kit-5.jpg",
-      "/assets/products/nanlite-pavotube-30-c-rgb-led-tube-light-4-4-kit-6.jpg",
-      "/assets/products/nanlite-pavotube-30-c-rgb-led-tube-light-4-4-kit-7.jpg"
+      "/assets/products/nanlite-pavotube-30-c-rgb-led-tube-light-4-4-kit-6.jpg"
     ],
     "specs": {
       "Salida": "647 Lux a 3,3' (5600K)",
@@ -230,16 +225,15 @@
     "subcategory": "LED",
     "description": "El soporte de cuello de cisne PavoTube Double Bank de Nanlite es una solución de agarre simple y eficaz para montar luces LED de tubo PavoTube 15C o 30C en un solo soporte de iluminación a través de un receptor estándar de 5/8. Con una extensión de cuello de cisne combinada con una rótula giratoria para articulación, el Quad Bank maximiza la versatilidad de los PavoTubes en el set. La extensión de cuello de cisne combinada con una rótula giratoria maximiza la versatilidad de los PavoTubes al permitir orientarlos en casi cualquier posición.\nMóntelo en cualquier soporte con un perno de 5/8, luego apriételo firmemente con una perilla grande y moleteada. Los clips T12 recubiertos de goma evitan daños accidentales al montar o desmontar los tubos. Diseñado para usarse con Nanlite PavoTubes, el Double Bank es compatible con otras luces de tubo estilo T12.",
     "pricePerDay": 10,
-    "imageUrl": "/assets/products/double-bank-t12-led-tube-gooseneck-mount-with-58-receiver-1.jpg",
+    "imageUrl": "/assets/products/double-bank-t12-led-tube-gooseneck-mount-with-58-receiver-0.jpg",
     "gallery": [
       "/assets/products/double-bank-t12-led-tube-gooseneck-mount-with-58-receiver-0.jpg",
       "/assets/products/double-bank-t12-led-tube-gooseneck-mount-with-58-receiver-1.jpg",
-      "/assets/products/double-bank-t12-led-tube-gooseneck-mount-with-58-receiver-2.png",
+      "/assets/products/double-bank-t12-led-tube-gooseneck-mount-with-58-receiver-2.jpg",
       "/assets/products/double-bank-t12-led-tube-gooseneck-mount-with-58-receiver-3.jpg",
       "/assets/products/double-bank-t12-led-tube-gooseneck-mount-with-58-receiver-4.jpg",
       "/assets/products/double-bank-t12-led-tube-gooseneck-mount-with-58-receiver-5.jpg",
-      "/assets/products/double-bank-t12-led-tube-gooseneck-mount-with-58-receiver-6.jpg",
-      "/assets/products/double-bank-t12-led-tube-gooseneck-mount-with-58-receiver-7.jpg"
+      "/assets/products/double-bank-t12-led-tube-gooseneck-mount-with-58-receiver-6.jpg"
     ],
     "specs": {
       "Feature 1": "Monte 1 o 2 tubos LED PavoTube 15C o 30C",
@@ -267,14 +261,13 @@
     "subcategory": "LED",
     "description": "El tubo de luz LED RGB Pixel Tube AX1 de Astera emite hasta 253 lux a 3,3' (5500K) con una batería integrada que es adecuada para una variedad de usos en producciones de cine, teatro y eventos. El AX1 cuenta con 16 emisores LED direccionables individualmente en un tubo de 3,4' de largo que puede montar en un set, en un soporte, colgar de una rejilla o incluso sostenerlo con la mano desnuda. El AX1 tiene una clasificación CRI/TLCI de 88, lo que proporciona una buena reproducción del color. El dispositivo se puede utilizar para crear una luz suave y directa sobre el sujeto o como luz de acento, así como un elemento de diseño en la ubicación o el set. El dispositivo cuenta con cinco modos de curva de atenuación diferentes.",
     "pricePerDay": 175,
-    "imageUrl": "/assets/products/astera-ax1-pixel-tube-rgb-led-tube-light-4-pies-1.png",
+    "imageUrl": "/assets/products/astera-ax1-pixel-tube-rgb-led-tube-light-4-pies-0.jpg",
     "gallery": [
       "/assets/products/astera-ax1-pixel-tube-rgb-led-tube-light-4-pies-0.jpg",
-      "/assets/products/astera-ax1-pixel-tube-rgb-led-tube-light-4-pies-1.png",
+      "/assets/products/astera-ax1-pixel-tube-rgb-led-tube-light-4-pies-1.jpg",
       "/assets/products/astera-ax1-pixel-tube-rgb-led-tube-light-4-pies-2.jpg",
       "/assets/products/astera-ax1-pixel-tube-rgb-led-tube-light-4-pies-3.jpg",
-      "/assets/products/astera-ax1-pixel-tube-rgb-led-tube-light-4-pies-4.jpg",
-      "/assets/products/astera-ax1-pixel-tube-rgb-led-tube-light-4-pies-5.jpg"
+      "/assets/products/astera-ax1-pixel-tube-rgb-led-tube-light-4-pies-4.jpg"
     ],
     "specs": {
       "Salida": "253 Lux a 3,3' (5500K)",
@@ -310,14 +303,13 @@
     "subcategory": "LED",
     "description": "El conjunto de ocho  bombillas LED NYX con PowerStation, estuche y accesorios de Astera combina ocho bombillas LED NYX de 10 W con una PowerStation y una fuente de alimentación de CA multivoltaje. Cada bombilla LED incluye un portavasos y un cable de conexión USB, y todo el conjunto de equipos se guarda en un estuche resistente a la corrosión y a los impactos para guardarlo y transportarlo fácilmente a cualquier lugar.",
     "pricePerDay": 50,
-    "imageUrl": "/assets/products/astera-nyx-led-bulbs-with-powerstation-case-and-accessories-set-of-8-1.jpg",
+    "imageUrl": "/assets/products/astera-nyx-led-bulbs-with-powerstation-case-and-accessories-set-of-8-0.jpg",
     "gallery": [
       "/assets/products/astera-nyx-led-bulbs-with-powerstation-case-and-accessories-set-of-8-0.jpg",
       "/assets/products/astera-nyx-led-bulbs-with-powerstation-case-and-accessories-set-of-8-1.jpg",
       "/assets/products/astera-nyx-led-bulbs-with-powerstation-case-and-accessories-set-of-8-2.jpg",
       "/assets/products/astera-nyx-led-bulbs-with-powerstation-case-and-accessories-set-of-8-3.jpg",
-      "/assets/products/astera-nyx-led-bulbs-with-powerstation-case-and-accessories-set-of-8-4.jpg",
-      "/assets/products/astera-nyx-led-bulbs-with-powerstation-case-and-accessories-set-of-8-5.png"
+      "/assets/products/astera-nyx-led-bulbs-with-powerstation-case-and-accessories-set-of-8-4.jpg"
     ],
     "specs": {
       "Feature 1": "8 bombillas LED con reflectores y estuche",
@@ -357,7 +349,7 @@
     "subcategory": "LED",
     "description": "El ARRI SkyPanel S60-C LED Softlight emite el equivalente a una luz suave de tungsteno de 2000 W mientras que consume un máximo de solo 450 W. El SkyPanel S60-C utiliza una tecnología diseñada originalmente para el Fresnel L7-C y se puede ajustar para que emita una luz cálida de 2800 K a azul helado de 10 000 K, y también utiliza toda la gama de colores RGB+W con control de tono y saturación para realizar ajustes precisos.",
     "pricePerDay": 120,
-    "imageUrl": "/assets/products/arri-skypanel-s60-c-led-softlight-1.png",
+    "imageUrl": "/assets/products/arri-skypanel-s60-c-led-softlight-0.jpg",
     "gallery": [
       "/assets/products/arri-skypanel-s60-c-led-softlight-0.jpg",
       "/assets/products/arri-skypanel-s60-c-led-softlight-1.png",
@@ -399,12 +391,11 @@
     "subcategory": "LED",
     "description": "Con un 25 % más de brillo que su predecesor, control DMX y un yugo de bloqueo del freno de mano rediseñado, la luz LED Aputure Light Storm LS C120D II LED Light Kit with V-Mount Battery Plate es una luminaria con chip en placa (COB) con una temperatura de color de 5500 K. Consume unos insignificantes 180 W de potencia mientras emite 135 000 lux, equivalente a una luz cálida de 1000 W a una distancia de 1,6 pies con un Fresnel opcional. Además de la eficiencia energética, la luminaria también presenta una alta calificación CRI/TLCI de 96/97, un indicador de reproducción precisa del color.",
     "pricePerDay": 50,
-    "imageUrl": "/assets/products/aputure-light-storm-ls-c120d-ii-led-light-kit-with-v-mount-battery-plate-1.jpg",
+    "imageUrl": "/assets/products/aputure-light-storm-ls-c120d-ii-led-light-kit-with-v-mount-battery-plate-0.jpg",
     "gallery": [
       "/assets/products/aputure-light-storm-ls-c120d-ii-led-light-kit-with-v-mount-battery-plate-0.jpg",
       "/assets/products/aputure-light-storm-ls-c120d-ii-led-light-kit-with-v-mount-battery-plate-1.jpg",
-      "/assets/products/aputure-light-storm-ls-c120d-ii-led-light-kit-with-v-mount-battery-plate-2.jpg",
-      "/assets/products/aputure-light-storm-ls-c120d-ii-led-light-kit-with-v-mount-battery-plate-3.png"
+      "/assets/products/aputure-light-storm-ls-c120d-ii-led-light-kit-with-v-mount-battery-plate-2.jpg"
     ],
     "specs": {
       "Feature 1": "Temperatura de color de luz diurna de 5500 K",
@@ -443,12 +434,11 @@
     "subcategory": "LED",
     "description": "La disposición de los LED se ha reconfigurado con el Gemini 1x1, lo que le permite crear el 60 % de la salida del Gemini 2x1 con un ángulo de haz medio-ancho de 46 grados. El dispositivo RGBWW de 12,6 x 12,6 x 4,6 fabricado en aluminio tiene múltiples modos de iluminación, incluidos CCT, Tono, Saturación, ajustes preestablecidos de gel, así como un modo de efectos. El control de temperatura de color CCT tiene seis ajustes preestablecidos de fábrica en incrementos de 2700 a 10 000 K. También hay seis ajustes preestablecidos para la temperatura de color definida por el usuario y el control de verde más/menos. El modo de color HSI le permite ajustar el tono, la saturación y la intensidad, mientras que el modo Gel le permite elegir entre una biblioteca de filtros preferidos por los cineastas, y un modo de efectos proporciona nueve efectos diferentes con los que trabajar. La luz tiene una calificación CRI/TLCI de 98, lo que indica una reproducción precisa del color. El Gemini se puede atenuar del 100 al 0,1 % sin parpadeo ni cambio de color,.",
     "pricePerDay": 75,
-    "imageUrl": "/assets/products/litepanels-gemini-1x1-hard-rgb-led-light-panel-1.jpg",
+    "imageUrl": "/assets/products/litepanels-gemini-1x1-hard-rgb-led-light-panel-0.jpg",
     "gallery": [
       "/assets/products/litepanels-gemini-1x1-hard-rgb-led-light-panel-0.jpg",
       "/assets/products/litepanels-gemini-1x1-hard-rgb-led-light-panel-1.jpg",
-      "/assets/products/litepanels-gemini-1x1-hard-rgb-led-light-panel-2.jpg",
-      "/assets/products/litepanels-gemini-1x1-hard-rgb-led-light-panel-3.png"
+      "/assets/products/litepanels-gemini-1x1-hard-rgb-led-light-panel-2.jpg"
     ],
     "specs": {
       "Feature 1": "Para estudios y producciones de cine y televisión",
@@ -485,15 +475,14 @@
     "subcategory": "LED",
     "description": "El LiteGear LiteMat 2 LED Hybrid S2 es el nuevo modelo que ha llegado a la ciudad. Cambiará tu forma de pensar sobre la iluminación. Es la herramienta multifunción de la iluminación. Móntalo, sujétalo con abrazaderas, pégalo con cinta adhesiva , atorníllalo... simplemente ilumina donde lo necesitas. El modelo híbrido es bicolor, totalmente ajustable de tungsteno a luz de día y también regulable y sin parpadeos. Ofrece un increíble CRI de 95 para hacer que los colores resalten.",
     "pricePerDay": 40,
-    "imageUrl": "/assets/products/litegear-litemat-2-led-hybrid-s2-complete-kit-1.jpg",
+    "imageUrl": "/assets/products/litegear-litemat-2-led-hybrid-s2-complete-kit-0.jpg",
     "gallery": [
       "/assets/products/litegear-litemat-2-led-hybrid-s2-complete-kit-0.jpg",
       "/assets/products/litegear-litemat-2-led-hybrid-s2-complete-kit-1.jpg",
       "/assets/products/litegear-litemat-2-led-hybrid-s2-complete-kit-2.jpg",
       "/assets/products/litegear-litemat-2-led-hybrid-s2-complete-kit-3.jpg",
       "/assets/products/litegear-litemat-2-led-hybrid-s2-complete-kit-4.jpg",
-      "/assets/products/litegear-litemat-2-led-hybrid-s2-complete-kit-5.jpg",
-      "/assets/products/litegear-litemat-2-led-hybrid-s2-complete-kit-6.png"
+      "/assets/products/litegear-litemat-2-led-hybrid-s2-complete-kit-5.jpg"
     ],
     "specs": {
       "Feature 1": "Móntalo, sujétalo con abrazaderas, pégalo con cinta adhesiva , atorníllalo... simplemente ilumina donde lo necesitas."
@@ -530,15 +519,14 @@
     "subcategory": "LED",
     "description": "El LiteGear LiteMat 2L Hybrid S2 LED Complete Kit es una solución de iluminación brillante, suave y con colores precisos para configuraciones de iluminación de escenarios, estudios o exteriores. Con un rango de CCT variable de 2600 a 6200 K, todos con índices CRI/TLCI de 95.",
     "pricePerDay": 50,
-    "imageUrl": "/assets/products/litegear-litemat-2l-hybrid-s2-led-complete-kit-1.jpg",
+    "imageUrl": "/assets/products/litegear-litemat-2l-hybrid-s2-led-complete-kit-0.jpg",
     "gallery": [
       "/assets/products/litegear-litemat-2l-hybrid-s2-led-complete-kit-0.jpg",
       "/assets/products/litegear-litemat-2l-hybrid-s2-led-complete-kit-1.jpg",
-      "/assets/products/litegear-litemat-2l-hybrid-s2-led-complete-kit-2.png",
+      "/assets/products/litegear-litemat-2l-hybrid-s2-led-complete-kit-2.jpg",
       "/assets/products/litegear-litemat-2l-hybrid-s2-led-complete-kit-3.jpg",
       "/assets/products/litegear-litemat-2l-hybrid-s2-led-complete-kit-4.jpg",
-      "/assets/products/litegear-litemat-2l-hybrid-s2-led-complete-kit-5.jpg",
-      "/assets/products/litegear-litemat-2l-hybrid-s2-led-complete-kit-6.jpg"
+      "/assets/products/litegear-litemat-2l-hybrid-s2-led-complete-kit-5.jpg"
     ],
     "specs": {
       "Feature 1": "Puede pensar en la LiteGear LiteMat 2L Hybrid como un fluorescente con luz natural y tubos de tungsteno instalados. Simplemente ajuste la temperatura entre 3200K y 6000K, y atenúe completamente la luz entre 0 y 100 %."
@@ -575,15 +563,14 @@
     "subcategory": "LED",
     "description": "El LiteGear LiteMat 4 LED Hybrid S2 Complete Unit Kit es una solución de iluminación brillante, suave y con colores precisos para configuraciones de iluminación de escenarios, estudios o exteriores. Con un rango de CCT variable de 2600 a 6200 K, todos con índices CRI/TLCI de 95.",
     "pricePerDay": 60,
-    "imageUrl": "/assets/products/litegear-litemat-4-led-hybrid-s2-complete-unit-kit-1.jpg",
+    "imageUrl": "/assets/products/litegear-litemat-4-led-hybrid-s2-complete-unit-kit-0.jpg",
     "gallery": [
       "/assets/products/litegear-litemat-4-led-hybrid-s2-complete-unit-kit-0.jpg",
       "/assets/products/litegear-litemat-4-led-hybrid-s2-complete-unit-kit-1.jpg",
       "/assets/products/litegear-litemat-4-led-hybrid-s2-complete-unit-kit-2.jpg",
       "/assets/products/litegear-litemat-4-led-hybrid-s2-complete-unit-kit-3.jpg",
       "/assets/products/litegear-litemat-4-led-hybrid-s2-complete-unit-kit-4.jpg",
-      "/assets/products/litegear-litemat-4-led-hybrid-s2-complete-unit-kit-5.jpg",
-      "/assets/products/litegear-litemat-4-led-hybrid-s2-complete-unit-kit-6.png"
+      "/assets/products/litegear-litemat-4-led-hybrid-s2-complete-unit-kit-5.jpg"
     ],
     "specs": {
       "Feature 1": "Tela de mariposas/para techo de Matthews, 8 x 8 pies, seda artificial blanca"
@@ -620,12 +607,11 @@
     "subcategory": "LED",
     "description": "El LiteGear LiteMat Plus 4 se basa en cuatro motores de luz en “mosaico”, cada uno de los cuales mide 240 mm x 480 mm (9,5 pulg. x 19 pulg.). La unidad principal cuenta con 2304 nuevos LED Cinemitter y está cubierta por una fina capa de policarbonato transparente y bordeada completamente con un cierre de “bucle” de Velcro®. El montaje se realiza con un soporte de cardán extraíble compatible con Kino Flo®. El método de “pixelización suave” permite que el LiteMat Plus 4 alcance niveles sorprendentemente brillantes.",
     "pricePerDay": 75,
-    "imageUrl": "/assets/products/litegear-litemat-plus-4-1.jpg",
+    "imageUrl": "/assets/products/litegear-litemat-plus-4-0.jpg",
     "gallery": [
-      "/assets/products/litegear-litemat-plus-4-0.png",
+      "/assets/products/litegear-litemat-plus-4-0.jpg",
       "/assets/products/litegear-litemat-plus-4-1.jpg",
-      "/assets/products/litegear-litemat-plus-4-2.jpg",
-      "/assets/products/litegear-litemat-plus-4-3.jpg"
+      "/assets/products/litegear-litemat-plus-4-2.jpg"
     ],
     "specs": {
       "Feature 1": "LiteMat es uno de los dispositivos de iluminación cinematográfica más asequibles y profesionales que existen en la actualidad.",
@@ -663,9 +649,9 @@
     "subcategory": "LED",
     "description": "La luz LED LS 1200d Pro de Aputure es una potente luminaria LED COB con una gran potencia, opciones de control y una salida comparable a una HMI de 1600 W. La luminaria de precisión tiene una temperatura de color sólida de 5600 K con una alta calificación CRI/TLCI de 95 que es ideal para filmar en exteriores o en áreas dominadas por otras luminarias con luz natural equilibrada, como las HMI. Además de la potencia, el control es una fuerza impulsora en el diseño de la 1200d Pro. La luz admite varios métodos de control inalámbrico, incluida la aplicación móvil Sidus Link y el control DMX inalámbrico integrado. La 1200d Pro también es compatible con LumenRadio CRMX, Art-net y sACN a través de un conector etherCON. También tiene conectividad DMX512 de 5 pines para integrarse sin problemas en cualquier interfaz DMX profesional.",
     "pricePerDay": 140,
-    "imageUrl": "/assets/products/aputure-ls-1200d-pro-led-light-kit-1.jpg",
+    "imageUrl": "/assets/products/aputure-ls-1200d-pro-led-light-kit-0.jpg",
     "gallery": [
-      "/assets/products/aputure-ls-1200d-pro-led-light-kit-0.png",
+      "/assets/products/aputure-ls-1200d-pro-led-light-kit-0.jpg",
       "/assets/products/aputure-ls-1200d-pro-led-light-kit-1.jpg",
       "/assets/products/aputure-ls-1200d-pro-led-light-kit-2.jpg",
       "/assets/products/aputure-ls-1200d-pro-led-light-kit-3.jpg",
@@ -673,8 +659,7 @@
       "/assets/products/aputure-ls-1200d-pro-led-light-kit-5.jpg",
       "/assets/products/aputure-ls-1200d-pro-led-light-kit-6.jpg",
       "/assets/products/aputure-ls-1200d-pro-led-light-kit-7.jpg",
-      "/assets/products/aputure-ls-1200d-pro-led-light-kit-8.jpg",
-      "/assets/products/aputure-ls-1200d-pro-led-light-kit-9.jpg"
+      "/assets/products/aputure-ls-1200d-pro-led-light-kit-8.jpg"
     ],
     "specs": {
       "Feature 1": "Luz LED LS 1200d Pro",
@@ -713,13 +698,12 @@
     "subcategory": "LED",
     "description": "Este Aputure Accent B7C RGBWW LED 8-Light Kit with Charging Case es una solución de iluminación para exteriores en un práctico estuche de transporte. Incluye ocho de las versátiles bombillas LED RGBWW en un resistente estuche de transporte de polímero que cuenta con un cargador de CA multivoltaje integrado, pestillos con cierre abatible y una válvula de liberación de presión. Este estuche a prueba de polvo cuenta con un asa moldeada y acepta candados proporcionados por el usuario para mayor seguridad.",
     "pricePerDay": 60,
-    "imageUrl": "/assets/products/aputure-accent-b7c-rgbww-led-8-light-kit-1.jpg",
+    "imageUrl": "/assets/products/aputure-accent-b7c-rgbww-led-8-light-kit-0.jpg",
     "gallery": [
-      "/assets/products/aputure-accent-b7c-rgbww-led-8-light-kit-0.png",
+      "/assets/products/aputure-accent-b7c-rgbww-led-8-light-kit-0.jpg",
       "/assets/products/aputure-accent-b7c-rgbww-led-8-light-kit-1.jpg",
       "/assets/products/aputure-accent-b7c-rgbww-led-8-light-kit-2.jpg",
-      "/assets/products/aputure-accent-b7c-rgbww-led-8-light-kit-3.jpg",
-      "/assets/products/aputure-accent-b7c-rgbww-led-8-light-kit-4.jpg"
+      "/assets/products/aputure-accent-b7c-rgbww-led-8-light-kit-3.jpg"
     ],
     "specs": {
       "Feature 1": "Ocho bombillas LED RGBWW Accent B7C",
@@ -753,15 +737,14 @@
     "subcategory": "LED",
     "description": "El kit de viaje de 4 luces Aputure MC con estuche de carga incluye cuatro luminarias Aputure MC, un estuche de carga y accesorios. Las luminarias MC son parte de la serie M de luces Aputure y cuentan con LED RGB, así como LED con balance de luz de tungsteno y luz diurna, lo que crea una luz LED con control de tono completo que emite hasta el 95 % de la gama de colores BT.2020.",
     "pricePerDay": 45,
-    "imageUrl": "/assets/products/aputure-mc-4-light-travel-kit-with-charging-case-1.jpg",
+    "imageUrl": "/assets/products/aputure-mc-4-light-travel-kit-with-charging-case-0.jpg",
     "gallery": [
       "/assets/products/aputure-mc-4-light-travel-kit-with-charging-case-0.jpg",
       "/assets/products/aputure-mc-4-light-travel-kit-with-charging-case-1.jpg",
       "/assets/products/aputure-mc-4-light-travel-kit-with-charging-case-2.jpg",
       "/assets/products/aputure-mc-4-light-travel-kit-with-charging-case-3.jpg",
       "/assets/products/aputure-mc-4-light-travel-kit-with-charging-case-4.jpg",
-      "/assets/products/aputure-mc-4-light-travel-kit-with-charging-case-5.jpg",
-      "/assets/products/aputure-mc-4-light-travel-kit-with-charging-case-6.png"
+      "/assets/products/aputure-mc-4-light-travel-kit-with-charging-case-5.jpg"
     ],
     "specs": {
       "Feature 1": "4 luminarias MC RGBWW",
@@ -801,15 +784,14 @@
     "subcategory": "LED",
     "description": "La flexibilidad y el control son claves para el diseño del panel de luz Aputure Nova P300c RGB LED Light Panel (Travel Kit). El dispositivo de construcción robusta tiene dos modos de iluminación. El modo CCT ofrece una temperatura de color expansiva de 2000 a 10,000K con una impresionante calificación CRI/TLCI de 95 y control de verde más/menos. El modo HSI le permite ajustar el tono, la saturación y la intensidad para acceder a literalmente millones de colores personalizados, y la biblioteca de geles estándar de la industria de 300 ofrece un control cromático aún mayor. El P300c también se puede atenuar de 0 a 100% sin parpadeo ni cambio de color. Además Aputure Nova P300c RGB LED Light Panel tiene 15 efectos especiales que incluyen auto de policía, relámpago, paparazzi, vela y más",
     "pricePerDay": 75,
-    "imageUrl": "/assets/products/aputure-nova-p300c-rgb-led-light-panel-travel-kit-1.jpg",
+    "imageUrl": "/assets/products/aputure-nova-p300c-rgb-led-light-panel-travel-kit-0.jpg",
     "gallery": [
       "/assets/products/aputure-nova-p300c-rgb-led-light-panel-travel-kit-0.jpg",
       "/assets/products/aputure-nova-p300c-rgb-led-light-panel-travel-kit-1.jpg",
-      "/assets/products/aputure-nova-p300c-rgb-led-light-panel-travel-kit-2.png",
+      "/assets/products/aputure-nova-p300c-rgb-led-light-panel-travel-kit-2.jpg",
       "/assets/products/aputure-nova-p300c-rgb-led-light-panel-travel-kit-3.jpg",
       "/assets/products/aputure-nova-p300c-rgb-led-light-panel-travel-kit-4.jpg",
-      "/assets/products/aputure-nova-p300c-rgb-led-light-panel-travel-kit-5.jpg",
-      "/assets/products/aputure-nova-p300c-rgb-led-light-panel-travel-kit-6.jpg"
+      "/assets/products/aputure-nova-p300c-rgb-led-light-panel-travel-kit-5.jpg"
     ],
     "specs": {
       "Feature 1": "Para estudios y producciones de cine y televisión",
@@ -849,15 +831,14 @@
     "subcategory": "LED",
     "description": "El mini panel compacto de 5 x 3 x 1 tiene un rango de CCT variable de 1700 a 10,000K para satisfacer cualquier tipo de desafío de luz ambiental, combinar con otras luminarias o simplemente para la expresión creativa. También tiene una alta calificación CRI/TLCI 95/90, lo que es su garantía de precisión avanzada en la reproducción del color. Y hablando de calificaciones, la luz también tiene clasificación IP65 a prueba de intemperie, por lo que no tiene que preocuparse por las condiciones climáticas. El DASH también ofrece atenuación sin parpadeos de 0 a 100%.",
     "pricePerDay": 15,
-    "imageUrl": "/assets/products/dash-pocket-rgb-led-light-panel-crmx-w-dmx-1.jpg",
+    "imageUrl": "/assets/products/dash-pocket-rgb-led-light-panel-crmx-w-dmx-0.jpg",
     "gallery": [
       "/assets/products/dash-pocket-rgb-led-light-panel-crmx-w-dmx-0.jpg",
       "/assets/products/dash-pocket-rgb-led-light-panel-crmx-w-dmx-1.jpg",
       "/assets/products/dash-pocket-rgb-led-light-panel-crmx-w-dmx-2.jpg",
       "/assets/products/dash-pocket-rgb-led-light-panel-crmx-w-dmx-3.jpg",
       "/assets/products/dash-pocket-rgb-led-light-panel-crmx-w-dmx-4.jpg",
-      "/assets/products/dash-pocket-rgb-led-light-panel-crmx-w-dmx-5.jpg",
-      "/assets/products/dash-pocket-rgb-led-light-panel-crmx-w-dmx-6.jpg"
+      "/assets/products/dash-pocket-rgb-led-light-panel-crmx-w-dmx-5.jpg"
     ],
     "specs": {
       "Salida": "250 Lux a 3,3' (6500K)",
@@ -896,13 +877,12 @@
     "subcategory": "LED",
     "description": "Nanlux Evoke 900C RGB LED Spot Light, que combina un control avanzado con la capacidad RGBLAC, es un dispositivo potente pero compacto con un impresionante rango de temperatura de color y una extensión del haz de 60°. Su CCT variable de 1800 a 20 000 K le permite usarlo en interiores, exteriores y entornos de iluminación mixta. El Evoke 900C se puede regular del 0 al 100 % en incrementos ultraprecisos de solo el 0,1 %. Además de incorporar LED de color lima, ámbar y cian, la luz ofrece altos índices de CRI/TLCI de 96 como garantía de precisión en la reproducción del color.",
     "pricePerDay": 125,
-    "imageUrl": "/assets/products/nanlux-evoke-900c-rgb-led-spot-light-1.jpg",
+    "imageUrl": "/assets/products/nanlux-evoke-900c-rgb-led-spot-light-0.jpg",
     "gallery": [
       "/assets/products/nanlux-evoke-900c-rgb-led-spot-light-0.jpg",
       "/assets/products/nanlux-evoke-900c-rgb-led-spot-light-1.jpg",
       "/assets/products/nanlux-evoke-900c-rgb-led-spot-light-2.jpg",
-      "/assets/products/nanlux-evoke-900c-rgb-led-spot-light-3.jpg",
-      "/assets/products/nanlux-evoke-900c-rgb-led-spot-light-4.jpg"
+      "/assets/products/nanlux-evoke-900c-rgb-led-spot-light-3.jpg"
     ],
     "specs": {
       "Feature 1": "1800-20 000 K CCT; control total de color RGB",
@@ -941,15 +921,14 @@
     "subcategory": "LED",
     "description": "Nanlux ha creado este Nanlux Evoke 1200B LED Bi-Color Spot Light Kit con estuche con ruedas para fotógrafos que quieran llevar la luz a cualquier lugar. El kit incluye el 1200B y el balasto, así como un estuche con ruedas. El 1200B, que adopta un formato popular y fácil de usar, tiene una amplia gama de colores variables de 2700 a 6500 K con altos índices de CRI y TLCI de 96 y 97 para no dejar ninguna duda de que el color se reproducirá con precisión hasta el tono más sutil. El 1200B se puede regular de 0 a 100 % en incrementos de 0,1 % y tiene curvas de atenuación lineal, de curva S, exponencial y logarítmica para garantizar la precisión del color independientemente de la intensidad de luz elegida.",
     "pricePerDay": 140,
-    "imageUrl": "/assets/products/nanlux-evoke-1200b-led-bi-color-spot-light-kit-1.jpg",
+    "imageUrl": "/assets/products/nanlux-evoke-1200b-led-bi-color-spot-light-kit-0.jpg",
     "gallery": [
       "/assets/products/nanlux-evoke-1200b-led-bi-color-spot-light-kit-0.jpg",
       "/assets/products/nanlux-evoke-1200b-led-bi-color-spot-light-kit-1.jpg",
       "/assets/products/nanlux-evoke-1200b-led-bi-color-spot-light-kit-2.jpg",
       "/assets/products/nanlux-evoke-1200b-led-bi-color-spot-light-kit-3.jpg",
       "/assets/products/nanlux-evoke-1200b-led-bi-color-spot-light-kit-4.jpg",
-      "/assets/products/nanlux-evoke-1200b-led-bi-color-spot-light-kit-5.jpg",
-      "/assets/products/nanlux-evoke-1200b-led-bi-color-spot-light-kit-6.jpg"
+      "/assets/products/nanlux-evoke-1200b-led-bi-color-spot-light-kit-5.jpg"
     ],
     "specs": {
       "Feature 1": "Lámpara LED bicolor Evoke 1200B",
@@ -982,7 +961,7 @@
     "subcategory": "Conventional",
     "description": "La lente Fresnel Nanlux Fresnel Lens with Offset Yoke está diseñada para enfocar nítidamente la dispersión del haz del Evoke 1200B. La lente viene con viseras de 4 vías, mientras que la horquilla descentrada permite una fácil inclinación sin obstrucciones.",
     "pricePerDay": 30,
-    "imageUrl": "/assets/products/nanlux-fresnel-lens-with-offset-yoke-1.jpg",
+    "imageUrl": "/assets/products/nanlux-fresnel-lens-with-offset-yoke-0.jpg",
     "gallery": [
       "/assets/products/nanlux-fresnel-lens-with-offset-yoke-0.jpg",
       "/assets/products/nanlux-fresnel-lens-with-offset-yoke-1.jpg",
@@ -990,8 +969,7 @@
       "/assets/products/nanlux-fresnel-lens-with-offset-yoke-3.jpg",
       "/assets/products/nanlux-fresnel-lens-with-offset-yoke-4.jpg",
       "/assets/products/nanlux-fresnel-lens-with-offset-yoke-5.jpg",
-      "/assets/products/nanlux-fresnel-lens-with-offset-yoke-6.jpg",
-      "/assets/products/nanlux-fresnel-lens-with-offset-yoke-7.jpg"
+      "/assets/products/nanlux-fresnel-lens-with-offset-yoke-6.jpg"
     ],
     "specs": {
       "Feature 1": "Lente Fresnel de vidrio",
@@ -1021,12 +999,11 @@
     "subcategory": "LED",
     "description": "Creamsource Vortex 4 es un panel LED 1×1 RGBW todo en uno con un potente haz de 20° que produce 7300 lux a 3 metros. Ofrece una gama CCT de 2200K a 15000K (divisible en cuatro zonas controlables independientemente), control total de tono/saturación, control de intensidad de 0-100% y un CRI/TCLI de 95+. Efectos, geles de color y la última tecnología FrameSync están integrados en la última arquitectura CreamOS. Vortex 4 también ofrece la funcionalidad Vortex Connect, que incluye LumenRadio TimoTwo integrada, Ethernet con sACN, Bluetooth, Wi-Fi, DMX de 5 patillas, USB tipo A y un puerto para accesorios Creamsource, lo que permite una amplia gama de posibilidades de control y compatibilidad con futuros protocolos. El Vortex 4 es resistente al agua según la norma IP65 y está sellado para mayor seguridad.",
     "pricePerDay": 110,
-    "imageUrl": "/assets/products/creamsource-vortex4-1.jpg",
+    "imageUrl": "/assets/products/creamsource-vortex4-0.jpg",
     "gallery": [
       "/assets/products/creamsource-vortex4-0.jpg",
       "/assets/products/creamsource-vortex4-1.jpg",
-      "/assets/products/creamsource-vortex4-2.png",
-      "/assets/products/creamsource-vortex4-3.png"
+      "/assets/products/creamsource-vortex4-2.png"
     ],
     "specs": {
       "Feature 1": "Creamsource Vortex 4 es un panel LED 1×1 RGBW todo en uno con un potente haz de 20° que produce 7300 lux a 3 metros."
@@ -1055,13 +1032,12 @@
     "subcategory": "Conventional",
     "description": "La versatilidad en los ángulos de apertura de un zoom elipsoidal, en un paquete compacto.\n{Lbn} Si usted busca versatilidad en los ángulos de campo de un zoom elipsoidal, con la asequibilidad y el diseño de un elipsoidal más pequeño, lo que usted está buscando es el Source Four jr Zoom. Ideal para aplicaciones en escenarios pequeños o clubes, eventos minoristas e industrias, Source Four jr Zoom cuenta con la resistente construcción de los aparatos de ETC y todas las famosas ópticas de precisión de Source Four.",
     "pricePerDay": 40,
-    "imageUrl": "/assets/products/etc-source-four-jr-zoom-1.jpg",
+    "imageUrl": "/assets/products/etc-source-four-jr-zoom-0.jpg",
     "gallery": [
       "/assets/products/etc-source-four-jr-zoom-0.jpg",
       "/assets/products/etc-source-four-jr-zoom-1.jpg",
       "/assets/products/etc-source-four-jr-zoom-2.jpg",
-      "/assets/products/etc-source-four-jr-zoom-3.jpg",
-      "/assets/products/etc-source-four-jr-zoom-4.png"
+      "/assets/products/etc-source-four-jr-zoom-3.jpg"
     ],
     "specs": {
       "Feature 1": "Filamento de tungsteno compacto",
@@ -1091,12 +1067,11 @@
     "subcategory": "Conventional",
     "description": "Ninguna otra luz ofrece tal brillantez óptica. La tecnología revolucionaria de Source Four le brinda un haz blanco limpio para una imagen inigualable, una proyección de patrones nítida y un campo luminoso y uniforme. La opción de tubo de lente EDLT para ángulos de campo de 19º, 26º, 36º y 50º hace que Source Four sea aún mejor para proyecciones de gobos ultranítidas y de alto contraste.",
     "pricePerDay": 50,
-    "imageUrl": "/assets/products/etc-source-4-19-750w-1.jpg",
+    "imageUrl": "/assets/products/etc-source-4-19-750w-0.jpg",
     "gallery": [
       "/assets/products/etc-source-4-19-750w-0.jpg",
       "/assets/products/etc-source-4-19-750w-1.jpg",
-      "/assets/products/etc-source-4-19-750w-2.png",
-      "/assets/products/etc-source-4-19-750w-3.jpg"
+      "/assets/products/etc-source-4-19-750w-2.jpg"
     ],
     "specs": {
       "Feature 1": "Potencia nominal de hasta 750 W",
@@ -1130,16 +1105,15 @@
     "subcategory": "Conventional",
     "description": "La luminaria ARRI True Blue T1 1000W Pole-Operated Fresnel Fixture  ofrece un sistema de enfriamiento cruzado que reduce la temperatura de la carcasa de la lámpara y la lente. Cuenta con un disco de fricción de acero inoxidable para un bloqueo rígido, soportes de malla ajustables de 2 y 4 posiciones, protección de lente de acero inoxidable con transmisión de luz maximizada y estabilidad a altas temperaturas. La luminaria incluye un cable de 4,9', viseras de 4 hojas y un marco de filtro.",
     "pricePerDay": 65,
-    "imageUrl": "/assets/products/arri-true-blue-t1-1000w-pole-operated-fresnel-fixture-1.jpg",
+    "imageUrl": "/assets/products/arri-true-blue-t1-1000w-pole-operated-fresnel-fixture-0.jpg",
     "gallery": [
-      "/assets/products/arri-true-blue-t1-1000w-pole-operated-fresnel-fixture-0.png",
+      "/assets/products/arri-true-blue-t1-1000w-pole-operated-fresnel-fixture-0.jpg",
       "/assets/products/arri-true-blue-t1-1000w-pole-operated-fresnel-fixture-1.jpg",
       "/assets/products/arri-true-blue-t1-1000w-pole-operated-fresnel-fixture-2.jpg",
       "/assets/products/arri-true-blue-t1-1000w-pole-operated-fresnel-fixture-3.jpg",
       "/assets/products/arri-true-blue-t1-1000w-pole-operated-fresnel-fixture-4.jpg",
       "/assets/products/arri-true-blue-t1-1000w-pole-operated-fresnel-fixture-5.jpg",
-      "/assets/products/arri-true-blue-t1-1000w-pole-operated-fresnel-fixture-6.jpg",
-      "/assets/products/arri-true-blue-t1-1000w-pole-operated-fresnel-fixture-7.jpg"
+      "/assets/products/arri-true-blue-t1-1000w-pole-operated-fresnel-fixture-6.jpg"
     ],
     "specs": {
       "Feature 1": "Soportes de posición de malla ajustables de 2/4",
@@ -1169,12 +1143,11 @@
     "subcategory": "Conventional",
     "description": "El Dedolight DLHM4300U es un dispositivo de halógeno de tungsteno autónomo de 150 vatios y 120 voltios que funciona con un regulador de intensidad de transformador electrónico incorporado. Esta versión del cabezal Dedolight utiliza lámparas de 24 V y 150 W alimentadas directamente desde una fuente de alimentación de CA y ofrece una temperatura de color de 3000 °K..  La lámpara DLHM ofrece una gran economía de energía y confiabilidad, ya que una lámpara típica de 150 W dura más de 1000 horas. A diferencia de la DLH2, la DLHM no debe utilizarse boca abajo durante períodos prolongados.",
     "pricePerDay": 30,
-    "imageUrl": "/assets/products/dedolight-150w-focusing-light-head-1.jpg",
+    "imageUrl": "/assets/products/dedolight-150w-focusing-light-head-0.jpg",
     "gallery": [
       "/assets/products/dedolight-150w-focusing-light-head-0.jpg",
       "/assets/products/dedolight-150w-focusing-light-head-1.jpg",
-      "/assets/products/dedolight-150w-focusing-light-head-2.jpg",
-      "/assets/products/dedolight-150w-focusing-light-head-3.png"
+      "/assets/products/dedolight-150w-focusing-light-head-2.jpg"
     ],
     "specs": {
       "Feature 1": "Utiliza lámparas de 150 W/24 V"
@@ -1201,8 +1174,16 @@
     "subcategory": "LED",
     "description": "El F22c RGBWW LED Mat de amaranes un tapete LED potente, versátil y flexible que mide 2 x 2'. Oferta una salida de luz excepcional y una reproducción del color adecuada para una variedad de usuarios, desde cineastas hasta videos, creadores de contenido y fotografos. Con 200 W de potencia, cuenta con LED RGBWW para un control completo del color, como CCT ajustable de 2500 a 7500K",
     "pricePerDay": 75,
-    "imageUrl": "/assets/products/amaran-f22c-2-x-2-rgb-led-flexible-light-mat-v-mount.jpg",
-    "gallery": [],
+    "imageUrl": "/assets/products/amaran-f22c-2-x-2-rgb-led-flexible-light-mat-v-mount-0.jpg",
+    "gallery": [
+      "/assets/products/amaran-f22c-2-x-2-rgb-led-flexible-light-mat-v-mount-0.jpg",
+      "/assets/products/amaran-f22c-2-x-2-rgb-led-flexible-light-mat-v-mount-1.jpg",
+      "/assets/products/amaran-f22c-2-x-2-rgb-led-flexible-light-mat-v-mount-2.jpg",
+      "/assets/products/amaran-f22c-2-x-2-rgb-led-flexible-light-mat-v-mount-3.jpg",
+      "/assets/products/amaran-f22c-2-x-2-rgb-led-flexible-light-mat-v-mount-4.jpg",
+      "/assets/products/amaran-f22c-2-x-2-rgb-led-flexible-light-mat-v-mount-5.jpg",
+      "/assets/products/amaran-f22c-2-x-2-rgb-led-flexible-light-mat-v-mount-6.jpg"
+    ],
     "specs": {
       "Salida": "6420 Lux a 3,3' (5600K)",
       "Feature 2": "2500-7500K CCT; Control de color HSI",
@@ -1246,15 +1227,14 @@
     "subcategory": "LED",
     "description": "La estabilidad, la construcción robusta, la flexibilidad y el control son las características distintivas del panel de luz Litepanels Gemini 1x1 Soft RGB LED Light Panel . El dispositivo RGBWW de 12,6 x 12,6 x 4,6 fabricado en aluminio tiene múltiples modos de iluminación, incluidos CCT, Tono, Saturación, ajustes preestablecidos de gel, así como un modo de efectos. El control de temperatura de color CCT tiene seis ajustes preestablecidos de fábrica en incrementos de 2700 a 10 000 K. También hay seis ajustes preestablecidos para la temperatura de color definida por el usuario y el control de verde más/menos.",
     "pricePerDay": 65,
-    "imageUrl": "/assets/products/litepanels-gemini-1x1-soft-rgb-led-light-panel-1.jpg",
+    "imageUrl": "/assets/products/litepanels-gemini-1x1-soft-rgb-led-light-panel-0.jpg",
     "gallery": [
-      "/assets/products/litepanels-gemini-1x1-soft-rgb-led-light-panel-0.png",
+      "/assets/products/litepanels-gemini-1x1-soft-rgb-led-light-panel-0.jpg",
       "/assets/products/litepanels-gemini-1x1-soft-rgb-led-light-panel-1.jpg",
       "/assets/products/litepanels-gemini-1x1-soft-rgb-led-light-panel-2.jpg",
       "/assets/products/litepanels-gemini-1x1-soft-rgb-led-light-panel-3.jpg",
       "/assets/products/litepanels-gemini-1x1-soft-rgb-led-light-panel-4.jpg",
-      "/assets/products/litepanels-gemini-1x1-soft-rgb-led-light-panel-5.jpg",
-      "/assets/products/litepanels-gemini-1x1-soft-rgb-led-light-panel-6.jpg"
+      "/assets/products/litepanels-gemini-1x1-soft-rgb-led-light-panel-5.jpg"
     ],
     "specs": {
       "Salida": "614 Lux a 3,3' (5600K, 95°)",
@@ -1289,15 +1269,14 @@
     "subcategory": "LED",
     "description": "Agregue este panel de luz Creamsource Vortex8 RGB LED Light Panel a su producción de alta gama para obtener una amplia gama de colores, efectos e iluminación potente que rivaliza con una luz HMI de 1200 W. El Vortex8 presenta una impresionante emisión de 14 000 lux a la luz del día a 9,8 pies, un rango de temperatura de color de 2200 a 15 000 K, LED de espectro RGBW completo, control total de tono/saturación, control de atenuación de 0 a 100 % y un CRI/TLCI de 95.",
     "pricePerDay": 140,
-    "imageUrl": "/assets/products/creamsource-vortex8-rgb-led-light-panel-1.png",
+    "imageUrl": "/assets/products/creamsource-vortex8-rgb-led-light-panel-0.jpg",
     "gallery": [
       "/assets/products/creamsource-vortex8-rgb-led-light-panel-0.jpg",
-      "/assets/products/creamsource-vortex8-rgb-led-light-panel-1.png",
+      "/assets/products/creamsource-vortex8-rgb-led-light-panel-1.jpg",
       "/assets/products/creamsource-vortex8-rgb-led-light-panel-2.jpg",
       "/assets/products/creamsource-vortex8-rgb-led-light-panel-3.jpg",
       "/assets/products/creamsource-vortex8-rgb-led-light-panel-4.jpg",
-      "/assets/products/creamsource-vortex8-rgb-led-light-panel-5.jpg",
-      "/assets/products/creamsource-vortex8-rgb-led-light-panel-6.jpg"
+      "/assets/products/creamsource-vortex8-rgb-led-light-panel-5.jpg"
     ],
     "specs": {
       "Salida": "14.000 Lux a 9,8' (5600K, 20°)",
@@ -1332,12 +1311,11 @@
     "subcategory": "LED",
     "description": "Para aquellos que requieren lo último en control de color, el panel tiene un modo RGB que le da acceso a literalmente millones de colores. Otra ventaja es los 1200C's 15 efectos de iluminación incluyendo bucle de tono, bucle CCT, bucle INT, flash, pulso, tormenta, coche de policía, TV, paparazzi, vela/fre, discoteca, bombilla, fuegos artificiales, etc, explosión y soldadura. El Dyno 1200C está listo para su uso en todo el mundo gracias a su fuente de alimentación de 100 a 240V e incluye estuche de vuelo para almacenamiento y transporte.",
     "pricePerDay": 140,
-    "imageUrl": "/assets/products/nanlux-dyno-1200c-rgbw-led-panel-1.jpg",
+    "imageUrl": "/assets/products/nanlux-dyno-1200c-rgbw-led-panel-0.jpg",
     "gallery": [
       "/assets/products/nanlux-dyno-1200c-rgbw-led-panel-0.jpg",
       "/assets/products/nanlux-dyno-1200c-rgbw-led-panel-1.jpg",
-      "/assets/products/nanlux-dyno-1200c-rgbw-led-panel-2.jpg",
-      "/assets/products/nanlux-dyno-1200c-rgbw-led-panel-3.jpg"
+      "/assets/products/nanlux-dyno-1200c-rgbw-led-panel-2.jpg"
     ],
     "specs": {
       "Feature 1": "Medidas 40 x 36 x 7, Modo RGBWW",
@@ -1371,13 +1349,12 @@
     "subcategory": "LED",
     "description": "una solución de iluminación versátil y robusta, que brinda una excelente representación del color y flexibilidad para los profesionales de la fotografía y el cine. Ofrece un amplio rango de temperatura de color de 2700 a 6500K con un CRI alto de 96 y TLCI de 97, lo que garantiza una reproducción precisa del color, mientras que los ajustes verde y magenta aseguran una sintonización perfecta del color.",
     "pricePerDay": 200,
-    "imageUrl": "/assets/products/nanlux-evoke-2400b-bi-color-led-1.jpg",
+    "imageUrl": "/assets/products/nanlux-evoke-2400b-bi-color-led-0.jpg",
     "gallery": [
       "/assets/products/nanlux-evoke-2400b-bi-color-led-0.jpg",
       "/assets/products/nanlux-evoke-2400b-bi-color-led-1.jpg",
       "/assets/products/nanlux-evoke-2400b-bi-color-led-2.jpg",
-      "/assets/products/nanlux-evoke-2400b-bi-color-led-3.jpg",
-      "/assets/products/nanlux-evoke-2400b-bi-color-led-4.jpg"
+      "/assets/products/nanlux-evoke-2400b-bi-color-led-3.jpg"
     ],
     "specs": {
       "Feature 1": "Para Producción de Estudio y Cine/TV",
@@ -1417,13 +1394,12 @@
     "subcategory": "Conventional",
     "description": "Un modificador que cambia el juego para Nanlux  monolight insignia, el FL-35E Lente Fresnel Motorizada utiliza los contactos electrónicos de la montura NL para acercar remotamente su ángulo de haz entre 15 y 46°, amplificando la salida bruta de la Evoke 2400B hasta más de cinco veces su salida base.",
     "pricePerDay": 30,
-    "imageUrl": "/assets/products/nanlux-fl-35e-motorized-fresnel-lens-1.jpg",
+    "imageUrl": "/assets/products/nanlux-fl-35e-motorized-fresnel-lens-0.jpg",
     "gallery": [
       "/assets/products/nanlux-fl-35e-motorized-fresnel-lens-0.jpg",
       "/assets/products/nanlux-fl-35e-motorized-fresnel-lens-1.jpg",
       "/assets/products/nanlux-fl-35e-motorized-fresnel-lens-2.jpg",
-      "/assets/products/nanlux-fl-35e-motorized-fresnel-lens-3.jpg",
-      "/assets/products/nanlux-fl-35e-motorized-fresnel-lens-4.jpg"
+      "/assets/products/nanlux-fl-35e-motorized-fresnel-lens-3.jpg"
     ],
     "specs": {
       "Feature 1": "DMX, NANLINK App Control",
@@ -1452,16 +1428,15 @@
     "subcategory": "LED",
     "description": "Es una solución eficiente tanto para la iluminación de fotos como de video. El kit contiene cinco luces de tubo con adaptadores de AC, clips de montaje y una bolsa para almacenamiento y transporte",
     "pricePerDay": 110,
-    "imageUrl": "/assets/products/nanlite-pavotube-ii-30x-rgb-led-pixel-tube-light-4-5-light-kit-1.jpg",
+    "imageUrl": "/assets/products/nanlite-pavotube-ii-30x-rgb-led-pixel-tube-light-4-5-light-kit-0.jpg",
     "gallery": [
-      "/assets/products/nanlite-pavotube-ii-30x-rgb-led-pixel-tube-light-4-5-light-kit-0.png",
+      "/assets/products/nanlite-pavotube-ii-30x-rgb-led-pixel-tube-light-4-5-light-kit-0.jpg",
       "/assets/products/nanlite-pavotube-ii-30x-rgb-led-pixel-tube-light-4-5-light-kit-1.jpg",
       "/assets/products/nanlite-pavotube-ii-30x-rgb-led-pixel-tube-light-4-5-light-kit-2.jpg",
       "/assets/products/nanlite-pavotube-ii-30x-rgb-led-pixel-tube-light-4-5-light-kit-3.jpg",
       "/assets/products/nanlite-pavotube-ii-30x-rgb-led-pixel-tube-light-4-5-light-kit-4.jpg",
       "/assets/products/nanlite-pavotube-ii-30x-rgb-led-pixel-tube-light-4-5-light-kit-5.jpg",
-      "/assets/products/nanlite-pavotube-ii-30x-rgb-led-pixel-tube-light-4-5-light-kit-6.jpg",
-      "/assets/products/nanlite-pavotube-ii-30x-rgb-led-pixel-tube-light-4-5-light-kit-7.jpg"
+      "/assets/products/nanlite-pavotube-ii-30x-rgb-led-pixel-tube-light-4-5-light-kit-6.jpg"
     ],
     "specs": {
       "Feature 1": "Para Producción de Fotografía, Video y Cine",
@@ -1499,12 +1474,11 @@
     "subcategory": "LED",
     "description": "amaran es un innovador tubo de 4' con salida RGBWW, una temperatura de color ajustable de 2500-7500K y un control de color creativo para una gama de looks y efectos de iluminación. Con una salida de 744 lux a 3.3' (5600K) y compatibilidad con la aplicación Sidus Link, esta luz es ideal para creadores de contenido, cineastas y fotógrafos por igual. Cuenta con una amplia gama de opciones de montaje y un agarre de batería intercambiable de 77Wh incluido.",
     "pricePerDay": 35,
-    "imageUrl": "/assets/products/aputure-amaran-t4c-rgb-led-tube-light-4-1.jpg",
+    "imageUrl": "/assets/products/aputure-amaran-t4c-rgb-led-tube-light-4-0.jpg",
     "gallery": [
-      "/assets/products/aputure-amaran-t4c-rgb-led-tube-light-4-0.png",
+      "/assets/products/aputure-amaran-t4c-rgb-led-tube-light-4-0.jpg",
       "/assets/products/aputure-amaran-t4c-rgb-led-tube-light-4-1.jpg",
-      "/assets/products/aputure-amaran-t4c-rgb-led-tube-light-4-2.jpg",
-      "/assets/products/aputure-amaran-t4c-rgb-led-tube-light-4-3.jpg"
+      "/assets/products/aputure-amaran-t4c-rgb-led-tube-light-4-2.jpg"
     ],
     "specs": {
       "Feature 1": "Para Entusiastas de Fotografía y Video",
@@ -1542,13 +1516,12 @@
     "subcategory": "LED",
     "description": "El potente y versátil SpaceX RBGAW Color Luz LED de CreamSource es un instrumento de luz de 1200W compuesto por una serie de seis potentes motores LED que operan en un factor de forma circular compacto. Con un CRI de 95 a través de su gama de 3200K a 6500K, proporciona una excelente reproducción del color y luego agrega capacidades completas de tono y saturación RBGAW para millones de colores disponibles. Los eficientes LED RBGAW proporcionan un rango de temperatura de color extendido de 2200K a 15,000K con un control completo de verde/magenta.",
     "pricePerDay": 125,
-    "imageUrl": "/assets/products/creamsource-spacex-rgbaw-color-led-light-1200w-1.jpg",
+    "imageUrl": "/assets/products/creamsource-spacex-rgbaw-color-led-light-1200w-0.jpg",
     "gallery": [
-      "/assets/products/creamsource-spacex-rgbaw-color-led-light-1200w-0.png",
+      "/assets/products/creamsource-spacex-rgbaw-color-led-light-1200w-0.jpg",
       "/assets/products/creamsource-spacex-rgbaw-color-led-light-1200w-1.jpg",
       "/assets/products/creamsource-spacex-rgbaw-color-led-light-1200w-2.jpg",
-      "/assets/products/creamsource-spacex-rgbaw-color-led-light-1200w-3.jpg",
-      "/assets/products/creamsource-spacex-rgbaw-color-led-light-1200w-4.jpg"
+      "/assets/products/creamsource-spacex-rgbaw-color-led-light-1200w-3.jpg"
     ],
     "specs": {
       "Ángulo de haz": "115°",
@@ -1585,15 +1558,14 @@
     "subcategory": "Cámara",
     "description": "",
     "pricePerDay": 125,
-    "imageUrl": "/assets/products/sony-fx3-full-frame-cinema-camera-0.png",
+    "imageUrl": "/assets/products/sony-fx3-full-frame-cinema-camera-0.jpg",
     "gallery": [
-      "/assets/products/sony-fx3-full-frame-cinema-camera-0.png",
+      "/assets/products/sony-fx3-full-frame-cinema-camera-0.jpg",
       "/assets/products/sony-fx3-full-frame-cinema-camera-1.jpg",
       "/assets/products/sony-fx3-full-frame-cinema-camera-2.jpg",
       "/assets/products/sony-fx3-full-frame-cinema-camera-3.jpg",
       "/assets/products/sony-fx3-full-frame-cinema-camera-4.jpg",
-      "/assets/products/sony-fx3-full-frame-cinema-camera-5.jpg",
-      "/assets/products/sony-fx3-full-frame-cinema-camera-6.jpg"
+      "/assets/products/sony-fx3-full-frame-cinema-camera-5.jpg"
     ],
     "stock": 2,
     "available": 2,
@@ -1633,15 +1605,14 @@
     "subcategory": "Cámara",
     "description": "",
     "pricePerDay": 200,
-    "imageUrl": "/assets/products/sony-fx3-full-frame-cinema-camera-kit-0.png",
+    "imageUrl": "/assets/products/sony-fx3-full-frame-cinema-camera-kit-0.jpg",
     "gallery": [
-      "/assets/products/sony-fx3-full-frame-cinema-camera-kit-0.png",
+      "/assets/products/sony-fx3-full-frame-cinema-camera-kit-0.jpg",
       "/assets/products/sony-fx3-full-frame-cinema-camera-kit-1.jpg",
       "/assets/products/sony-fx3-full-frame-cinema-camera-kit-2.jpg",
       "/assets/products/sony-fx3-full-frame-cinema-camera-kit-3.jpg",
       "/assets/products/sony-fx3-full-frame-cinema-camera-kit-4.jpg",
-      "/assets/products/sony-fx3-full-frame-cinema-camera-kit-5.jpg",
-      "/assets/products/sony-fx3-full-frame-cinema-camera-kit-6.jpg"
+      "/assets/products/sony-fx3-full-frame-cinema-camera-kit-5.jpg"
     ],
     "stock": 1,
     "available": 1,
@@ -1785,14 +1756,13 @@
     "subcategory": "Cámara",
     "description": "",
     "pricePerDay": 350,
-    "imageUrl": "/assets/products/sony-pxw-fx9-xdcam-6k-full-frame-camera-0.png",
+    "imageUrl": "/assets/products/sony-pxw-fx9-xdcam-6k-full-frame-camera-0.jpg",
     "gallery": [
-      "/assets/products/sony-pxw-fx9-xdcam-6k-full-frame-camera-0.png",
+      "/assets/products/sony-pxw-fx9-xdcam-6k-full-frame-camera-0.jpg",
       "/assets/products/sony-pxw-fx9-xdcam-6k-full-frame-camera-1.jpg",
       "/assets/products/sony-pxw-fx9-xdcam-6k-full-frame-camera-2.jpg",
       "/assets/products/sony-pxw-fx9-xdcam-6k-full-frame-camera-3.jpg",
-      "/assets/products/sony-pxw-fx9-xdcam-6k-full-frame-camera-4.jpg",
-      "/assets/products/sony-pxw-fx9-xdcam-6k-full-frame-camera-5.jpg"
+      "/assets/products/sony-pxw-fx9-xdcam-6k-full-frame-camera-4.jpg"
     ],
     "stock": 1,
     "available": 1,
@@ -1832,14 +1802,13 @@
     "subcategory": "Cámara",
     "description": "",
     "pricePerDay": 400,
-    "imageUrl": "/assets/products/sony-pxw-fx9-xdcam-6k-full-frame-camera-kit-0.png",
+    "imageUrl": "/assets/products/sony-pxw-fx9-xdcam-6k-full-frame-camera-kit-0.jpg",
     "gallery": [
-      "/assets/products/sony-pxw-fx9-xdcam-6k-full-frame-camera-kit-0.png",
+      "/assets/products/sony-pxw-fx9-xdcam-6k-full-frame-camera-kit-0.jpg",
       "/assets/products/sony-pxw-fx9-xdcam-6k-full-frame-camera-kit-1.jpg",
       "/assets/products/sony-pxw-fx9-xdcam-6k-full-frame-camera-kit-2.jpg",
       "/assets/products/sony-pxw-fx9-xdcam-6k-full-frame-camera-kit-3.jpg",
-      "/assets/products/sony-pxw-fx9-xdcam-6k-full-frame-camera-kit-4.jpg",
-      "/assets/products/sony-pxw-fx9-xdcam-6k-full-frame-camera-kit-5.jpg"
+      "/assets/products/sony-pxw-fx9-xdcam-6k-full-frame-camera-kit-4.jpg"
     ],
     "stock": 1,
     "available": 1,
@@ -1881,10 +1850,10 @@
     "subcategory": "Cámara",
     "description": "La cámara viene con un soporte PL extraíble que admite los protocolos de metadatos de la lente Cooke /i Technology, lo que le permite trabajar con vidrio estilo cine que va desde el vintage hasta el moderno. Tal como está, la cámara admite la captura DCI y UHD 4K, mientras que las actualizaciones de firmware planificadas y programadas permitirán velocidades de fotogramas anamórficas, de fotograma completo y selectas de 1 a 72 fps.",
     "pricePerDay": 500,
-    "imageUrl": "/assets/products/sony-venice-6k-digital-motion-picture-camera-0.png",
+    "imageUrl": "/assets/products/sony-venice-6k-digital-motion-picture-camera-0.jpg",
     "gallery": [
-      "/assets/products/sony-venice-6k-digital-motion-picture-camera-0.png",
-      "/assets/products/sony-venice-6k-digital-motion-picture-camera-1.jpg",
+      "/assets/products/sony-venice-6k-digital-motion-picture-camera-0.jpg",
+      "/assets/products/sony-venice-6k-digital-motion-picture-camera-1.png",
       "/assets/products/sony-venice-6k-digital-motion-picture-camera-2.jpg",
       "/assets/products/sony-venice-6k-digital-motion-picture-camera-3.jpg",
       "/assets/products/sony-venice-6k-digital-motion-picture-camera-4.jpg",
@@ -2469,13 +2438,12 @@
     "subcategory": "Óptica",
     "description": "Capture vistas únicas de primer plano con su cámara de cine de montaje en PL y el LAOWA 24mm T8 Full Frame 2x Lente Pro2be de Venus Óptica. Esta lente de vista directa  es una de una serie que también incluye versiones de 90° periscope y 35°. Cubre hasta sensores de cámara de fotograma completo, es resistente al agua hasta 14.4, se enfoca a solo .",
     "pricePerDay": 125,
-    "imageUrl": "/assets/products/venus-optics-laowa-pro2be-24mm-t8-2x-probe-lens-direct-view-arri-pl-0.png",
+    "imageUrl": "/assets/products/venus-optics-laowa-pro2be-24mm-t8-2x-probe-lens-direct-view-arri-pl-0.jpg",
     "gallery": [
-      "/assets/products/venus-optics-laowa-pro2be-24mm-t8-2x-probe-lens-direct-view-arri-pl-0.png",
+      "/assets/products/venus-optics-laowa-pro2be-24mm-t8-2x-probe-lens-direct-view-arri-pl-0.jpg",
       "/assets/products/venus-optics-laowa-pro2be-24mm-t8-2x-probe-lens-direct-view-arri-pl-1.jpg",
       "/assets/products/venus-optics-laowa-pro2be-24mm-t8-2x-probe-lens-direct-view-arri-pl-2.jpg",
-      "/assets/products/venus-optics-laowa-pro2be-24mm-t8-2x-probe-lens-direct-view-arri-pl-3.jpg",
-      "/assets/products/venus-optics-laowa-pro2be-24mm-t8-2x-probe-lens-direct-view-arri-pl-4.jpg"
+      "/assets/products/venus-optics-laowa-pro2be-24mm-t8-2x-probe-lens-direct-view-arri-pl-3.jpg"
     ],
     "stock": 1,
     "available": 1,
@@ -2545,8 +2513,7 @@
     "pricePerDay": 3,
     "imageUrl": "/assets/products/matthews-baby-plate-3-0.jpg",
     "gallery": [
-      "/assets/products/matthews-baby-plate-3-0.jpg",
-      "/assets/products/matthews-baby-plate-3-1.png"
+      "/assets/products/matthews-baby-plate-3-0.jpg"
     ],
     "stock": 3,
     "available": 3,
@@ -2570,10 +2537,9 @@
     "subcategory": "Iluminación / Difusión",
     "description": "Esta es una placa de metal de 3 x 5 con un perno soldado de 5/8 pulgadas que se extiende 6 pulgadas. La placa tiene 8 puntos de anclaje para clavos o tornillos, que no están incluidos. Este artículo se puede utilizar en una pared, o independiente como un soporte de luz a nivel del piso.",
     "pricePerDay": 3,
-    "imageUrl": "/assets/products/matthews-baby-plate-6-0.png",
+    "imageUrl": "/assets/products/matthews-baby-plate-6-0.jpg",
     "gallery": [
-      "/assets/products/matthews-baby-plate-6-0.png",
-      "/assets/products/matthews-baby-plate-6-1.jpg"
+      "/assets/products/matthews-baby-plate-6-0.jpg"
     ],
     "stock": 4,
     "available": 4,
@@ -2599,8 +2565,7 @@
     "pricePerDay": 3,
     "imageUrl": "/assets/products/matthews-baby-plate-12-0.jpg",
     "gallery": [
-      "/assets/products/matthews-baby-plate-12-0.jpg",
-      "/assets/products/matthews-baby-plate-12-1.png"
+      "/assets/products/matthews-baby-plate-12-0.jpg"
     ],
     "stock": 6,
     "available": 6,
@@ -2628,8 +2593,7 @@
     "gallery": [
       "/assets/products/matthews-baby-stand-extension-6-0.jpg",
       "/assets/products/matthews-baby-stand-extension-6-1.jpg",
-      "/assets/products/matthews-baby-stand-extension-6-2.jpg",
-      "/assets/products/matthews-baby-stand-extension-6-3.png"
+      "/assets/products/matthews-baby-stand-extension-6-2.jpg"
     ],
     "stock": 5,
     "available": 5,
@@ -2655,8 +2619,7 @@
     "imageUrl": "/assets/products/matthews-baby-stand-extension-12-0.jpg",
     "gallery": [
       "/assets/products/matthews-baby-stand-extension-12-0.jpg",
-      "/assets/products/matthews-baby-stand-extension-12-1.jpg",
-      "/assets/products/matthews-baby-stand-extension-12-2.png"
+      "/assets/products/matthews-baby-stand-extension-12-1.jpg"
     ],
     "stock": 2,
     "available": 2,
@@ -2685,8 +2648,7 @@
     "gallery": [
       "/assets/products/matthews-baby-stand-extension-18-0.jpg",
       "/assets/products/matthews-baby-stand-extension-18-1.jpg",
-      "/assets/products/matthews-baby-stand-extension-18-2.jpg",
-      "/assets/products/matthews-baby-stand-extension-18-3.png"
+      "/assets/products/matthews-baby-stand-extension-18-2.jpg"
     ],
     "stock": 5,
     "available": 5,
@@ -2778,8 +2740,7 @@
       "/assets/products/matthews-super-mafer-clamp-0.jpg",
       "/assets/products/matthews-super-mafer-clamp-1.jpg",
       "/assets/products/matthews-super-mafer-clamp-2.jpg",
-      "/assets/products/matthews-super-mafer-clamp-3.jpg",
-      "/assets/products/matthews-super-mafer-clamp-4.png"
+      "/assets/products/matthews-super-mafer-clamp-3.jpg"
     ],
     "stock": 3,
     "available": 3,
@@ -2862,10 +2823,9 @@
     "subcategory": "Soporte De Iluminación",
     "description": "El Big Ben Clamp de Mateo es una abrazadera de tipo cheeseboro con un pasador de 1-1/8. Sirve para múltiples propósitos y se puede utilizar con una tubería con diámetros de 1-1/4 a 1-1/2 como una rejilla aérea temporal. La tubería también se puede manipular a nivel del suelo emparejando la abrazadera Big Ben con un soporte junior.",
     "pricePerDay": 6,
-    "imageUrl": "/assets/products/matthews-big-ben-clamp-0.png",
+    "imageUrl": "/assets/products/matthews-big-ben-clamp-0.jpg",
     "gallery": [
-      "/assets/products/matthews-big-ben-clamp-0.png",
-      "/assets/products/matthews-big-ben-clamp-1.jpg"
+      "/assets/products/matthews-big-ben-clamp-0.jpg"
     ],
     "stock": 2,
     "available": 2,

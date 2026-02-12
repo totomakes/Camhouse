@@ -110,11 +110,46 @@ async function processSource(sourceKey) {
             const folderPath = path.join(media, foundFolder);
             const files = fs.readdirSync(folderPath).filter(f => /\.(jpg|jpeg|png|webp)$/i.test(f));
 
+            // Sort files: prioritize those starting with "main" or "hero"
+            files.sort((a, b) => {
+                const aLow = a.toLowerCase();
+                const bLow = b.toLowerCase();
+                const isMainA = aLow.startsWith('main') || aLow.startsWith('hero') || aLow.includes('_main') || aLow.includes('_hero');
+                const isMainB = bLow.startsWith('main') || bLow.startsWith('hero') || bLow.includes('_main') || bLow.includes('_hero');
+
+                if (isMainA && !isMainB) return -1;
+                if (!isMainA && isMainB) return 1;
+                return a.localeCompare(b);
+            });
+
             files.forEach((file, idx) => {
                 const ext = path.extname(file);
                 const destName = `${id}-${idx}${ext}`;
                 const destPath = path.join(publicAssetsPath, destName);
-                fs.copyFileSync(path.join(folderPath, file), destPath);
+                const sourcePath = path.join(folderPath, file);
+
+                // Copy first
+                fs.copyFileSync(sourcePath, destPath);
+
+                // Process to 1:1 square if it's a standard image
+                if (/\.(jpg|jpeg|png)$/i.test(ext)) {
+                    try {
+                        const { execSync } = require('child_process');
+                        // Get dimensions
+                        const output = execSync(`sips -g pixelWidth -g pixelHeight "${destPath}"`).toString();
+                        const w = parseInt(output.match(/pixelWidth: (\d+)/)[1]);
+                        const h = parseInt(output.match(/pixelHeight: (\d+)/)[1]);
+
+                        if (w !== h) {
+                            const side = Math.max(w, h);
+                            console.log(`  Padding ${file} to ${side}x${side}...`);
+                            execSync(`sips -p ${side} ${side} --padColor FFFFFF "${destPath}"`);
+                        }
+                    } catch (err) {
+                        console.error(`  Warning: Failed to process image ${file}:`, err.message);
+                    }
+                }
+
                 const url = `/assets/products/${destName}`;
                 gallery.push(url);
                 if (idx === 0) imageUrl = url;

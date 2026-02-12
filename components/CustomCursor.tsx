@@ -29,16 +29,16 @@ const CustomCursor: React.FC = () => {
 
   return (
     <div 
-      className={`custom-cursor border-[#FF3E1F] transition-transform duration-150 ${isClicking ? 'scale-75' : ''} ${isPointer ? 'w-16 h-16' : 'w-10 h-10'}`}
+      className={`custom-cursor border-primary transition-transform duration-150 ${isClicking ? 'scale-75' : ''} ${isPointer ? 'w-16 h-16' : 'w-10 h-10'}`}
       style={{ left: `${position.x}px`, top: `${position.y}px` }}
     >
       <div className="absolute inset-0 border border-black opacity-10 pointer-events-none"></div>
-      <div className="w-[1px] h-[1px] bg-[#FF3E1F]"></div>
+      <div className="w-[1px] h-[1px] bg-primary"></div>
       {/* Corner Brackets (Viewfinder Style) */}
-      <div className="absolute top-0 left-0 w-2 h-2 border-t border-l border-[#FF3E1F]"></div>
-      <div className="absolute top-0 right-0 w-2 h-2 border-t border-r border-[#FF3E1F]"></div>
-      <div className="absolute bottom-0 left-0 w-2 h-2 border-b border-l border-[#FF3E1F]"></div>
-      <div className="absolute bottom-0 right-0 w-2 h-2 border-b border-r border-[#FF3E1F]"></div>
+      <div className="absolute top-0 left-0 w-2 h-2 border-t border-l border-primary"></div>
+      <div className="absolute top-0 right-0 w-2 h-2 border-t border-r border-primary"></div>
+      <div className="absolute bottom-0 left-0 w-2 h-2 border-b border-l border-primary"></div>
+      <div className="absolute bottom-0 right-0 w-2 h-2 border-b border-r border-primary"></div>
     </div>
   );
 };

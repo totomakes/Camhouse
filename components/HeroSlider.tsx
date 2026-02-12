@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 
 const SLIDES = [
   {
-    image: '/assets/hero/hero_1.jpg',
+    image: 'https://images.unsplash.com/photo-1492691523567-6170c8675fa8?auto=format&fit=crop&q=80&w=1920',
     title: 'THE CORE OF YOUR STORY.',
     subtitle: 'Elite camera packages for world-class productions.'
   },
@@ -44,7 +44,7 @@ const HeroSlider: React.FC = () => {
             className={`w-full h-full object-cover transition-transform duration-[10000ms] ease-linear ${index === current ? 'scale-110' : 'scale-100'}`}
           />
           <div className="absolute inset-0 z-20 flex flex-col items-center justify-center px-6 text-center mt-10">
-            <h2 className="text-[#FF3E1F] tracking-[0.4em] text-xs mb-6 font-black uppercase animate-fade-in-down drop-shadow-md">
+            <h2 className="text-primary tracking-[0.4em] text-xs mb-6 font-black uppercase animate-fade-in-down drop-shadow-md">
               Your production ally in El Salvador
             </h2>
             <h1 className="text-white text-5xl md:text-8xl lg:text-9xl mb-8 max-w-5xl leading-tight drop-shadow-2xl">
@@ -56,13 +56,16 @@ const HeroSlider: React.FC = () => {
             <div className="flex flex-col sm:flex-row gap-5">
               <button
                 onClick={() => document.getElementById('inventory')?.scrollIntoView({ behavior: 'smooth' })}
-                className="bg-[#FF3E1F] text-white px-12 py-5 text-xs uppercase tracking-[0.3em] font-bold hover:bg-white hover:text-black transition-all shadow-xl"
+                className="bg-primary text-white px-12 py-5 text-xs uppercase tracking-[0.3em] font-bold hover:bg-white hover:text-black transition-all shadow-xl"
               >
                 Explore Inventory
               </button>
-              <button className="bg-white/10 backdrop-blur-md border border-white/30 text-white px-12 py-5 text-xs uppercase tracking-[0.3em] font-bold hover:bg-white hover:text-black transition-all shadow-xl">
+              <a
+                href="mailto:camhouserental@gmail.com"
+                className="bg-white/10 backdrop-blur-md border border-white/30 text-white px-12 py-5 text-xs uppercase tracking-[0.3em] font-bold hover:bg-white hover:text-black transition-all shadow-xl inline-block"
+              >
                 Contact Rental Desk
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -76,8 +79,8 @@ const HeroSlider: React.FC = () => {
             onClick={() => setCurrent(i)}
             className={`group relative py-4 transition-all`}
           >
-            <div className={`w-16 h-[2px] transition-all ${i === current ? 'bg-[#FF3E1F] scale-x-110' : 'bg-white/30 group-hover:bg-white/60'}`} />
-            <span className={`absolute -top-4 left-1/2 -translate-x-1/2 text-[9px] font-bold tracking-widest transition-opacity ${i === current ? 'opacity-100 text-[#FF3E1F]' : 'opacity-0'}`}>
+            <div className={`w-16 h-[2px] transition-all ${i === current ? 'bg-primary scale-x-110' : 'bg-white/30 group-hover:bg-white/60'}`} />
+            <span className={`absolute -top-4 left-1/2 -translate-x-1/2 text-[9px] font-bold tracking-widest transition-opacity ${i === current ? 'opacity-100 text-primary' : 'opacity-0'}`}>
               0{i + 1}
             </span>
           </button>

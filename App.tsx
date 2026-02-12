@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import CustomCursor from './components/CustomCursor';
 import CartSidebar from './components/CartSidebar';
 import ProductDetail from './components/ProductDetail';
+import BrandLogos from './components/BrandLogos';
 import { Product, CartItem } from './types';
 
 const App: React.FC = () => {
@@ -52,11 +53,11 @@ const App: React.FC = () => {
         <HeroSlider />
 
         {/* Industry Badge Bar */}
-        <div className="bg-[#FF3E1F] py-4 overflow-hidden whitespace-nowrap">
+        <div className="bg-primary py-4 overflow-hidden whitespace-nowrap">
           <div className="animate-scroll-slow flex gap-24 items-center">
             {[...Array(6)].map((_, i) => (
               <span key={i} className="text-white text-[10px] font-black uppercase tracking-[0.4em]">
-                • TRUSTED BY NETFLIX • HBO • A24 • WARNER BROS • SONY PICTURES • APPLE TV+ •
+                • ELEVATING CINEMATIC VISIONS • UNRIVALED TECHNICAL PRECISION • GLOBAL PRODUCTION ALLIANCES • HOLLYWOOD-TIER GEAR ONLY • YOUR VISION, OUR PRECISION •
               </span>
             ))}
           </div>
@@ -67,11 +68,13 @@ const App: React.FC = () => {
           onSelectProduct={(product) => setSelectedProduct(product)}
         />
 
+        <BrandLogos />
+
         {/* Brand Story Section */}
-        <section className="py-32 px-6 md:px-12 bg-white border-y border-[#D1D1D1]">
+        <section className="py-32 px-6 md:px-12 bg-white border-y border-border">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-[#FF3E1F] uppercase tracking-[0.3em] text-xs font-bold mb-8">Our Philosophy</h2>
-            <p className="text-3xl md:text-5xl leading-tight mb-12 heading-font text-[#121212]">
+            <h2 className="text-primary uppercase tracking-[0.3em] text-xs font-bold mb-8">Our Philosophy</h2>
+            <p className="text-3xl md:text-5xl leading-tight mb-12 heading-font text-text-primary">
               "We don't just rent cameras. We curate the technical architecture of your visual narrative."
             </p>
             <div className="flex items-center justify-center gap-4">

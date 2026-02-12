@@ -14,10 +14,10 @@
     <script>
         // EDIT THESE HEX CODES TO CHANGE SITE-WIDE THEME
         const COLORS = {
-            primary: '#FF3E1F',
-            accent: '#3898EC',
+            primary: '#13C4A3',
+            accent: '#36F1CD',
             bg: '#F6F4EF',
-            text: '#121212',
+            text: '#32322C',
             border: '#D1D1D1'
         };
 
@@ -40,15 +40,23 @@
                 }
             }
         }
+
+        // Apply to CSS Variables
+        const root = document.documentElement;
+        root.style.setProperty('--primary', COLORS.primary);
+        root.style.setProperty('--accent', COLORS.accent);
+        root.style.setProperty('--bg', COLORS.bg);
+        root.style.setProperty('--text-primary', COLORS.text);
+        root.style.setProperty('--border', COLORS.border);
     </script>
     <style>
         :root {
-            --primary: #FF3E1F;
-            --accent: #3898EC;
+            --primary: #13C4A3;
+            --accent: #36F1CD;
             --bg: #F6F4EF;
             --card-bg: #FFFFFF;
             --border: #D1D1D1;
-            --text-primary: #121212;
+            --text-primary: #32322C;
             --font-body: 'Work Sans', sans-serif;
             --font-heading: 'Playfair Display', serif;
         }
