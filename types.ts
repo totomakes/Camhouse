@@ -1,6 +1,6 @@
 
-export type Category = 'Cameras' | 'Lenses' | 'Lighting' | 'Grip' | 'Audio' | 'Support';
-export type Subcategory = 'Body' | 'Prime' | 'Zoom' | 'Anamorphic' | 'LED' | 'HMI' | 'Stands' | 'Stabilizers' | 'Receivers' | 'Mixers';
+export type Category = string;
+export type Subcategory = string;
 
 export interface Product {
   id: string;
