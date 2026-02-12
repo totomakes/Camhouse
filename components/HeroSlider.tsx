@@ -3,12 +3,12 @@ import React, { useState, useEffect } from 'react';
 
 const SLIDES = [
   {
-    image: 'https://images.unsplash.com/photo-1492691523567-6170c8675fa8?auto=format&fit=crop&q=80&w=1920',
+    image: '/assets/hero/hero_2.jpg',
     title: 'THE CORE OF YOUR STORY.',
     subtitle: 'Elite camera packages for world-class productions.'
   },
   {
-    image: '/assets/hero/hero_2.jpg',
+    image: 'https://images.unsplash.com/photo-1492691523567-6170c8675fa8?auto=format&fit=crop&q=80&w=1920',
     title: 'PRECISION OPTICS.',
     subtitle: 'Cooke, Arri, Zeiss. The glass that defines the look.'
   },

@@ -42,17 +42,23 @@ const Navbar: React.FC<NavbarProps> = ({ cartCount, onOpenCart }) => {
               About
               <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-primary transition-all group-hover:w-full"></span>
             </a>
+            {/* Hiding Studios for now */}
+            {/* 
             <a href="#" className="hover:text-primary transition-colors relative group">
               Studios
               <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-primary transition-all group-hover:w-full"></span>
             </a>
+            */}
           </div>
         </div>
 
         <div className="flex items-center gap-8">
+          {/* Hiding Login for now */}
+          {/* 
           <button className="hidden sm:block text-[11px] uppercase tracking-[0.2em] font-bold text-text-primary hover:text-primary transition-colors">
             Login
           </button>
+          */}
           <button
             onClick={onOpenCart}
             className="group flex items-center gap-3 bg-text-primary border border-text-primary px-6 py-2.5 hover:bg-primary hover:border-primary transition-all"

@@ -11,7 +11,18 @@ import BrandLogos from './components/BrandLogos';
 import { Product, CartItem } from './types';
 
 const App: React.FC = () => {
-  const [cart, setCart] = useState<CartItem[]>([]);
+  const [cart, setCart] = useState<CartItem[]>(() => {
+    if (typeof window !== 'undefined') {
+      const saved = localStorage.getItem('camhouse_cart');
+      return saved ? JSON.parse(saved) : [];
+    }
+    return [];
+  });
+
+  React.useEffect(() => {
+    localStorage.setItem('camhouse_cart', JSON.stringify(cart));
+  }, [cart]);
+
   const [isCartOpen, setIsCartOpen] = useState(false);
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
 

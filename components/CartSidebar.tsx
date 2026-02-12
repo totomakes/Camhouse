@@ -11,27 +11,58 @@ interface CartSidebarProps {
 }
 
 const CartSidebar: React.FC<CartSidebarProps> = ({ isOpen, onClose, items, onRemove, onUpdateQty }) => {
+  const [isQuoteModalOpen, setIsQuoteModalOpen] = React.useState(false);
+  const [customerName, setCustomerName] = React.useState('');
+  const [customerEmail, setCustomerEmail] = React.useState('');
   const total = items.reduce((sum, item) => sum + (item.pricePerDay * item.quantity), 0);
 
-  const generatePDF = (userName: string = 'Valued Customer') => {
+  const generatePDF = async (userName: string = 'Valued Customer') => {
     const doc = new jsPDF();
     const date = new Date().toLocaleDateString();
     const brandColor = [19, 196, 163]; // #13C4A3 (Teal)
     const darkColor = [18, 18, 18]; // #121212
 
+    // Brand Logo Loader
+    const loadImage = (url: string): Promise<HTMLImageElement | null> => {
+      return new Promise((resolve) => {
+        const img = new Image();
+        img.crossOrigin = 'anonymous';
+        img.onload = () => resolve(img);
+        img.onerror = () => resolve(null);
+        img.src = url;
+      });
+    };
+
+    const logo = await loadImage('/assets/logo.png');
+
     // Header Bar
     doc.setFillColor(...brandColor);
     doc.rect(0, 0, 210, 40, 'F');
 
-    // Brand Logo (Text-based)
-    doc.setTextColor(255, 255, 255);
-    doc.setFont('helvetica', 'bold');
-    doc.setFontSize(28);
-    doc.text('CAMHOUSE', 20, 28);
+    if (logo) {
+      // Calculate aspect ratio to avoid deformation
+      // Height is fixed at 20mm, width scaled accordingly
+      const originalWidth = logo.width;
+      const originalHeight = logo.height;
+      const ratio = originalWidth / originalHeight;
+      const displayHeight = 22;
+      const displayWidth = displayHeight * ratio;
 
+      // addImage(img, format, x, y, width, height, alias, compression)
+      // Moving x slightly to center vertically in health bar
+      doc.addImage(logo, 'PNG', 20, 9, displayWidth, displayHeight, undefined, 'FAST');
+    } else {
+      doc.setTextColor(255, 255, 255);
+      doc.setFont('helvetica', 'bold');
+      doc.setFontSize(24);
+      doc.text('CAMHOUSE', 20, 28);
+    }
+
+    doc.setTextColor(255, 255, 255);
     doc.setFontSize(8);
     doc.setFont('helvetica', 'normal');
-    doc.text('ELITE FILM PRODUCTION GEAR', 20, 34);
+    const headerInfoY = 35; // Standardized placement
+    doc.text('ELITE FILM PRODUCTION GEAR', 20, headerInfoY);
 
     // Quote Info Header
     doc.setTextColor(...darkColor);
@@ -93,38 +124,45 @@ const CartSidebar: React.FC<CartSidebarProps> = ({ isOpen, onClose, items, onRem
     doc.setTextColor(...brandColor);
     doc.text(`$${total.toLocaleString()} USD`, 160, y);
 
-    // Footer Disclaimer
+    // Footer Disclaimer & Brand Info
     doc.setTextColor(150, 150, 150);
     doc.setFontSize(7);
     doc.setFont('helvetica', 'italic');
-    const footerY = 285;
-    doc.text('* This is a non-binding estimate. Final quote requires production insurance and rental agreement.', 20, footerY);
-    doc.text('CAMHOUSE RENTALS | EL SALVADOR | WORLDWIDE LOGISTICS', 120, footerY);
+    const footerYPos = 282;
+    doc.text('* This is a non-binding estimate. Final quote requires production insurance and rental agreement.', 20, footerYPos);
+
+    doc.setFont('helvetica', 'bold');
+    doc.setTextColor(100, 100, 100);
+    doc.text('CAMHOUSE RENTALS | EL SALVADOR | WORLDWIDE LOGISTICS', 105, footerYPos + 6, { align: 'center' });
 
     return doc;
   };
 
-  const handleDownload = () => {
-    const doc = generatePDF();
-    doc.save('CamHouse_Estimate.pdf');
+  const handleDownload = async (name: string = 'Valued Customer') => {
+    const doc = await generatePDF(name);
+    const dateStr = new Date().toISOString().split('T')[0];
+    doc.save(`camhouse_estimate_${dateStr}.pdf`);
   };
 
   const handleRequestQuote = () => {
-    const name = window.prompt('Please enter your Name or Production Company:');
-    if (!name) return;
+    setIsQuoteModalOpen(true);
+  };
 
-    const doc = generatePDF(name);
-    doc.save(`CamHouse_Quote_${name.replace(/\s+/g, '_')}.pdf`);
+  const handleSendRequest = async () => {
+    if (!customerName || !customerEmail) return;
+
+    await handleDownload(customerName);
 
     // Prepare Email
-    const subject = encodeURIComponent(`Quote Request: ${name}`);
+    const subject = encodeURIComponent(`Quote Request: ${customerName}`);
     const body = encodeURIComponent(
       `Hello CamHouse team,\n\nI would like to request a formal quote for the following items:\n\n` +
       items.map(i => `- ${i.name} (${i.brand}) x${i.quantity}`).join('\n') +
-      `\n\nTotal Estimate: $${total}\n\nThank you,\n${name}`
+      `\n\nTotal Estimate: $${total}\n\nClient Contact: ${customerEmail}\n\nThank you,\n${customerName}`
     );
 
     window.location.href = `mailto:camhouserental@gmail.com?subject=${subject}&body=${body}`;
+    setIsQuoteModalOpen(false);
   };
 
   return (
@@ -191,7 +229,7 @@ const CartSidebar: React.FC<CartSidebarProps> = ({ isOpen, onClose, items, onRem
               Request Formal Quote
             </button>
             <button
-              onClick={handleDownload}
+              onClick={() => handleDownload()}
               disabled={items.length === 0}
               className="w-full bg-white border-2 border-text-primary text-text-primary py-4 text-[11px] uppercase tracking-[0.3em] font-bold hover:bg-text-primary hover:text-white transition-all active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed"
             >
@@ -202,6 +240,78 @@ const CartSidebar: React.FC<CartSidebarProps> = ({ isOpen, onClose, items, onRem
           <p className="text-[9px] text-center text-black/30 mt-4 uppercase">Excluding insurance & logistics fees.</p>
         </div>
       </aside>
+
+      {/* Custom Quote Modal */}
+      {isQuoteModalOpen && (
+        <div className="fixed inset-0 z-[200] flex items-center justify-center p-6">
+          <div
+            className="absolute inset-0 bg-black/80 backdrop-blur-md"
+            onClick={() => setIsQuoteModalOpen(false)}
+          />
+          <div className="relative bg-white w-full max-w-sm p-12 shadow-2xl animate-fade-in-up">
+            <button
+              onClick={() => setIsQuoteModalOpen(false)}
+              className="absolute top-6 right-6 p-2 text-black/20 hover:text-primary transition-colors"
+            >
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+
+            <div className="mb-10 text-center">
+              <h3 className="text-2xl font-bold uppercase tracking-tighter text-text-primary mb-2">Formal Quote</h3>
+              <p className="text-[10px] uppercase tracking-widest text-primary font-bold italic">Professional Production Estimate</p>
+            </div>
+
+            <div className="space-y-6">
+              <div>
+                <label className="block text-[10px] uppercase tracking-widest text-black/40 font-bold mb-3">
+                  Production Name / Company
+                </label>
+                <input
+                  autoFocus
+                  type="text"
+                  value={customerName}
+                  onChange={(e) => setCustomerName(e.target.value)}
+                  placeholder="e.g. Netflix / A24"
+                  className="w-full bg-[#F0F0F0] border-none px-6 py-4 text-sm font-medium focus:ring-2 focus:ring-primary outline-none transition-all mb-4"
+                />
+
+                <label className="block text-[10px] uppercase tracking-widest text-black/40 font-bold mb-3">
+                  Email Address
+                </label>
+                <input
+                  type="email"
+                  value={customerEmail}
+                  onChange={(e) => setCustomerEmail(e.target.value)}
+                  placeholder="e.g. producer@example.com"
+                  className="w-full bg-[#F0F0F0] border-none px-6 py-4 text-sm font-medium focus:ring-2 focus:ring-primary outline-none transition-all"
+                />
+              </div>
+
+              <div className="flex flex-col gap-3 pt-4">
+                <button
+                  onClick={handleSendRequest}
+                  disabled={!customerName || !customerEmail}
+                  className="w-full bg-primary text-white py-5 text-[11px] uppercase tracking-[0.3em] font-bold hover:bg-text-primary transition-all disabled:opacity-50"
+                >
+                  Send & Download
+                </button>
+                <button
+                  onClick={() => { handleDownload(customerName || undefined); setIsQuoteModalOpen(false); }}
+                  className="w-full bg-white border border-text-primary text-text-primary py-4 text-[11px] uppercase tracking-[0.3em] font-bold hover:bg-text-primary hover:text-white transition-all"
+                >
+                  Download Only
+                </button>
+              </div>
+            </div>
+
+            <p className="mt-8 text-[9px] text-center text-black/30 uppercase leading-relaxed">
+              Generating your estimate...<br />Direct email will open upon completion.
+            </p>
+          </div>
+        </div>
+      )}
     </>
   );
 };
