@@ -12,17 +12,26 @@
         href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
         rel="stylesheet">
     <script>
+        // EDIT THESE HEX CODES TO CHANGE SITE-WIDE THEME
+        const COLORS = {
+            primary: '#FF3E1F',
+            accent: '#3898EC',
+            bg: '#F6F4EF',
+            text: '#121212',
+            border: '#D1D1D1'
+        };
+
         tailwind.config = {
             theme: {
                 extend: {
                     colors: {
-                        primary: '#FF3E1F',
-                        cta: '#3898EC',
-                        accent: '#3898EC',
-                        bg: '#F6F4EF',
+                        primary: COLORS.primary,
+                        accent: COLORS.accent,
+                        cta: COLORS.accent,
+                        bg: COLORS.bg,
                         'card-bg': '#FFFFFF',
-                        border: '#D1D1D1',
-                        'text-primary': '#121212',
+                        border: COLORS.border,
+                        'text-primary': COLORS.text,
                     },
                     fontFamily: {
                         body: ['"Work Sans"', 'sans-serif'],

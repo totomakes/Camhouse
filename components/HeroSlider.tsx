@@ -3,12 +3,12 @@ import React, { useState, useEffect } from 'react';
 
 const SLIDES = [
   {
-    image: 'https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&q=80&w=1920',
+    image: '/assets/hero/hero_1.jpg',
     title: 'THE CORE OF YOUR STORY.',
     subtitle: 'Elite camera packages for world-class productions.'
   },
   {
-    image: 'https://images.unsplash.com/photo-1536240478700-b86d35f71716?auto=format&fit=crop&q=80&w=1920',
+    image: '/assets/hero/hero_2.jpg',
     title: 'PRECISION OPTICS.',
     subtitle: 'Cooke, Arri, Zeiss. The glass that defines the look.'
   },
@@ -45,7 +45,7 @@ const HeroSlider: React.FC = () => {
           />
           <div className="absolute inset-0 z-20 flex flex-col items-center justify-center px-6 text-center mt-10">
             <h2 className="text-[#FF3E1F] tracking-[0.4em] text-xs mb-6 font-black uppercase animate-fade-in-down drop-shadow-md">
-              CAMHOUSE PRODUCTIONS
+              Your production ally in El Salvador
             </h2>
             <h1 className="text-white text-5xl md:text-8xl lg:text-9xl mb-8 max-w-5xl leading-tight drop-shadow-2xl">
               {slide.title}

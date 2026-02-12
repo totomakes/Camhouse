@@ -17,13 +17,17 @@ const Navbar: React.FC<NavbarProps> = ({ cartCount, onOpenCart }) => {
 
   return (
     <nav className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${isScrolled
-        ? 'bg-white/95 backdrop-blur-md border-b border-[#D1D1D1] py-3 shadow-lg'
-        : 'bg-white/80 backdrop-blur-sm py-5 border-b border-black/5'
+      ? 'bg-white/95 backdrop-blur-md border-b border-[#D1D1D1] py-3 shadow-lg'
+      : 'bg-white/80 backdrop-blur-sm py-5 border-b border-black/5'
       }`}>
       <div className="max-w-[1800px] mx-auto px-6 md:px-12 flex items-center justify-between">
         <div className="flex items-center gap-12">
-          <a href="#" className="text-2xl font-black tracking-tighter flex items-center gap-2 text-[#121212]">
-            <span className="text-[#FF3E1F]">CAM</span>HOUSE
+          <a href="#" className="flex items-center group">
+            <img
+              src="/assets/logo.png"
+              alt="CAMHOUSE"
+              className="h-10 w-auto object-contain brightness-0 transition-all group-hover:brightness-100 group-hover:opacity-80"
+            />
           </a>
           <div className="hidden md:flex gap-8 text-[11px] uppercase tracking-[0.2em] font-bold text-[#121212]">
             <a href="#inventory" className="hover:text-[#FF3E1F] transition-colors relative group">
