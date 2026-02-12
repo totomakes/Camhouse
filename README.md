@@ -39,13 +39,7 @@ CamHouse is a premium rental platform designed for high-end film production. Thi
    npm install
    ```
 
-3. **Configure Environment**
-   Create a `.env.local` file in the root directory:
-   ```env
-   GEMINI_API_KEY=your_api_key_here
-   ```
-
-4. **Run Development Server**
+3. **Run Development Server**
    ```bash
    npm run dev
    ```
